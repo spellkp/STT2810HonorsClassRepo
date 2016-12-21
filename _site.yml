@@ -4,7 +4,7 @@ navbar:
   title: "STT 2810 Honors"
   left:
     - text: "Syllabus"
-      href: ./Syllabus/STT2810sylSpring17.html
+      href: ./Syllabus/STT2810HonorsSylSpring17.html
     - text: "Resources"
       href: https://alanarnholt.github.io/resources.html
     - text: "For Students"
