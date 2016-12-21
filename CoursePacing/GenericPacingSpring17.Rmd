@@ -1163,7 +1163,7 @@ $$\widehat{\text{gpa}}= 3.57 − 0.01 \times \text{premed}$$
 
 * Review chapter 8 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
-* Complete the `simple_regression_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., November 18, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2243).  Make sure you commit and push your your final product to your private repository.
+* Complete the `simple_regression_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., April 14, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2738).  Make sure you commit and push your your final product to your private repository.
 
 
 #### Learning Objectives for [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os) Sections 7.3-7.4 {-}
@@ -1254,7 +1254,7 @@ htmlTable::htmlTable(round(summary(mod1)$coef,4), css.cell = "padding-left: 1em;
 
 * Complete chapter 9 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
-* Complete the `multiple_regression_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., November 30, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2244).  Make sure you commit and push your your final product to your private repository.
+* Complete the `multiple_regression_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., April 26, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2739).  Make sure you commit and push your your final product to your private repository.
 
 #### Learning Objectives for [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os) Sections 8.1-8.2 {-}
 
@@ -1386,5 +1386,5 @@ Test yourself:
 ### Final Exam {-}
 
 ```{block, FINAL, type='rmdnote'}
-*  Complete the `Project3Template.Rmd` project found in your [StatsWithRProjects](https://github.com/STAT-ATA-ASU/StatsWithRProjects) forked repository. Submit your compiled `*html` file no later than 5:00 p.m., December 7, to [CrowdGrader](https://www.crowdgrader.org/crowdgrader/venues/view_venue/2247).  Make sure you commit and push your final product to your private repository. 
+*  Complete the `Project3Template.Rmd` project found in your [StatsWithRProjects](https://github.com/STAT-ATA-ASU/StatsWithRProjects) forked repository. Submit your compiled `*html` file no later than 5:00 p.m., May 11, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2740).  Make sure you commit and push your final product to your private repository. 
 ```
