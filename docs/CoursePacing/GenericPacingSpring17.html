@@ -119,7 +119,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">STT 2810 Honors Course Schedule</h1>
 <h4 class="author"><em>Alan T. Arnholt</em></h4>
-<h4 class="date"><em>Last compiled: Wednesday, December 21, 2016 - 13:42:50.</em></h4>
+<h4 class="date"><em>Last compiled: Wednesday, December 21, 2016 - 18:36:44.</em></h4>
 
 </div>
 
@@ -200,10 +200,11 @@ The grading rubric for submissions is given below.
 </tr>
 </tbody>
 </table>
+<hr />
 </div>
 </div>
-<div id="week-1-aug-16-18" class="section level2 unnumbered">
-<h2>Week 1: (Aug 16, 18)</h2>
+<div id="week-1-jan-17-19" class="section level2 unnumbered">
+<h2>Week 1: (Jan 17, 19)</h2>
 <ul>
 <li><p>Sign-up for free accounts on <a href="https://github.com">GitHub</a> and <a href="https://rpubs.com">Rpubs</a>.</p></li>
 <li><p>When you register for a free individual GitHub account, request a <a href="https://education.github.com">student discount</a> to obtain a few private repositories as well as unlimited public repositories. Please use something similar to <strong>FirstNameLastName</strong> as your username when you register with GitHub. For example, my username on GitHub is <em>alanarnholt</em>. If you have a popular name such as John Smith, you may need to provide some other distinquishing characteristic in your username. Please use the same <strong>username</strong> for your account on Rpubs.</p></li>
@@ -255,9 +256,10 @@ Watch the following videos as appropriate:
 </li>
 </ul>
 </div>
+<hr />
 </div>
-<div id="week-2-aug-23-25" class="section level2 unnumbered">
-<h2>Week 2: (Aug 23, 25)</h2>
+<div id="week-2-jan-24-26" class="section level2 unnumbered">
+<h2>Week 2: (Jan 24, 26)</h2>
 <ul>
 <li><p>Watch all videos for week one of <a href="https://www.coursera.org/learn/probability-intro"><em>Introduction to Probability and Data</em></a>.</p></li>
 <li><p>Read sections 1.1-1.5 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
@@ -273,32 +275,36 @@ Watch the following videos as appropriate:
 <li>Paste the clone URL (<code>https://github.com/YourUserName/STAT-ATA-ASU/STT2810HonorsClassRepo.git</code>) in the <code>Repository URL:</code> box.</li>
 <li>Type a name (suggestion <code>UserNameSTT2810</code>) in the <code>Project directory name:</code> box.</li>
 <li>Change if needed the location in the <code>Create project as subdirectory of:</code> box.</li>
-<li>Click the <code>Create Project</code> box. You should now have a local copy of the forked repository on your local machine. Congratulations!</li>
+<li><p>Click the <code>Create Project</code> box. You should now have a local copy of the forked repository on your local machine. Congratulations!</p></li>
+<li><p>Set the upstream remote in your fork to this repository with the command</p></li>
 </ol>
+<pre><code>git remote add upstream https://github.com/STAT-ATA-ASU/STT2810HonorsClassRepo.git</code></pre>
+<ol start="9" style="list-style-type: decimal">
+<li>Verify with</li>
+</ol>
+<pre><code>git remote -v</code></pre>
+<ol start="10" style="list-style-type: decimal">
+<li>To obtain updates from the upstream repository type</li>
+</ol>
+<pre><code>git pull upstream master</code></pre>
 <ul>
-<li><p>Set the upstream remote in your fork to this repository with the command</p>
-<pre><code>git remote add upstream https://github.com/STAT-ATA-ASU/STT2810HonorsClassRepo.git</code></pre></li>
-<li><p>Verify with</p>
-<pre><code>git remote -v</code></pre></li>
-<li><p>To obtain updates from the upstream repository type</p>
-<pre><code>git pull upstream master</code></pre></li>
-<li><p>If the upstream repository is using <code>gh-pages</code>, use <code>gh-pages</code> instead of <code>master</code> to obtain updates.</p>
-<pre><code>git pull upstream gh-pages</code></pre></li>
+<li>If the upstream repository is using <code>gh-pages</code>, use <code>gh-pages</code> instead of <code>master</code> to obtain updates.</li>
+</ul>
+<pre><code>git pull upstream gh-pages</code></pre>
+<ul>
 <li><p>If there are conflicts, you will need to resolve them before proceeding.</p></li>
 <li><p>Create a free account on <a href="https://www.datacamp.com/">DataCamp</a>. Complete chapter 1 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Fork the <a href="https://github.com/STAT-ATA-ASU/StatsWithRLabs">StatsWithRLabs</a> repository to your private GitHub account. Complete the <code>intro_to_r_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., August 26, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2236">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository. Install the <code>statsr</code> package by running the following from the R command line:</p></li>
+<li><p>Fork the <a href="https://github.com/STAT-ATA-ASU/StatsWithRLabs">StatsWithRLabs</a> repository to your private GitHub account. Complete the <code>intro_to_r_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., January 27, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2730">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository. Install the <code>statsr</code> package by running the following from the R command line:</p></li>
 </ul>
 <pre><code>devtools::install_github('alanarnholt/statsr')</code></pre>
 <div id="learning-objectives-openintro-statistics-3rd-edition-sections-1.1-1.5" class="section level4 unnumbered">
 <h4>Learning Objectives <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Sections 1.1-1.5</h4>
 <ol style="list-style-type: decimal">
-<li>Identify variables as numerical or categorical.</li>
-</ol>
+<li><p>Identify variables as numerical or categorical.</p>
 <ul>
 <li>If the variable is numerical, further classify it as continuous or discrete based on whether or not the variable can take on an infinite number of values or only non-negative whole numbers, respectively.</li>
 <li>If the variable is categorical, determine if it is ordinal or not based on whether the levels have a natural ordering.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
+</ul></li>
 <li><p>Define associated variables as variables that show some relationship with one another. Further categorize this relationship as a positive or negative association when possible.</p></li>
 <li><p>Define variables that are not associated as independent.</p></li>
 </ol>
@@ -309,21 +315,17 @@ Test yourself: Give one example of each type of variable you have learned.
 </div>
 <ol start="4" style="list-style-type: decimal">
 <li><p>Identify the explanatory variable in a pair of variables as the variable suspected of affecting the other, however note that labeling variables as explanatory and response does not guarantee that the relationship between the two is actually causal, even if there is an association identified between the two variables.</p></li>
-<li><p>Classify a study as observational or experimental. Determine and explain whether the study’s results can be generalized to the population and whether the results suggest an association or causation between the quantities studied.</p></li>
-</ol>
+<li><p>Classify a study as observational or experimental. Determine and explain whether the study’s results can be generalized to the population and whether the results suggest an association or causation between the quantities studied.</p>
 <ul>
 <li>If random sampling has been employed in data collection, the results should be generalizable to the target population.</li>
 <li>If random assignment has been employed in study design, the results suggest causality.</li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
+</ul></li>
 <li><p>Identify confounding variables and sources of bias in a given study.</p></li>
-<li><p>Distinguish among simple random, stratified, and cluster sampling. Recognize the benefits and drawbacks of choosing one sampling scheme over another.</p></li>
-</ol>
+<li><p>Distinguish among simple random, stratified, and cluster sampling. Recognize the benefits and drawbacks of choosing one sampling scheme over another.</p>
 <ul>
 <li>Simple random sampling: Each subject in the population is equally likely to be selected. Stratified sampling: First divide the population into homogeneous strata (subjects within each stratum are similar, across strata are different); then, randomly sample from within each strata.</li>
 <li>Cluster sampling: First, divide the population into clusters (subjects within each cluster are non-homogeneous, but clusters are similar to each other). Next, randomly sample a few clusters. Finally, randomly sample from within each cluster.</li>
-</ul>
-<ol start="8" style="list-style-type: decimal">
+</ul></li>
 <li><p>Identify the four principles of experimental design, and recognize their purposes: control any possible confounders; randomize into treatment and control groups; replicate by using a sufficiently large sample or repeating the experiment; and block any variables that might influence the response.</p></li>
 <li><p>Identify if single or double blinding has been used in a study.</p></li>
 </ol>
@@ -385,16 +387,17 @@ End of chapter exercises in Chapter 1 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-3-aug-30-sep-1" class="section level2 unnumbered">
-<h2>Week 3 (Aug 30, Sep 1)</h2>
+<div id="week-3-jan-31-feb-2" class="section level2 unnumbered">
+<h2>Week 3 (Jan 31, Feb 2)</h2>
 <ul>
 <li><p>Watch all videos for week two of <a href="https://www.coursera.org/learn/probability-intro"><em>Introduction to Probability and Data</em></a>.</p></li>
 <li><p>Read sections 1.6-1.8 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Read chapters 6, 8, and 9 of <a href="https://alanarnholt.github.io/PDS-Bookdown2/"><em>PDS</em></a>.</p></li>
 <li><p>Complete chapter 2 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>intro_to_data_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., September 2, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2237">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>intro_to_data_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., February 3, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2731">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 <li><p>Integrating <a href="www.zotero.com">zotero</a> with <a href="http://rmarkdown.rstudio.com">RMarkdown</a> will be discussed during the first part of the week. An example document will be stored in this folder.</p></li>
 <li><p>You may find these <a href="https://www.youtube.com/watch?v=dto4gARbsi0&amp;list=PLJBNI3mCp9g0wsSDK111qgimqVF1dwPXO">videos helpful</a>.</p></li>
 </ul>
@@ -403,13 +406,11 @@ End of chapter exercises in Chapter 1 of <a href="https://www.openintro.org/stat
 <ol style="list-style-type: decimal">
 <li><p>Use scatterplots to display the relationship between two numerical variables, making sure to note the direction (positive or negative), form (linear or non-linear), and strength of the relationship as well as any unusual observations.</p></li>
 <li><p>When describing the distribution of a numerical variable, mention its shape, center, and spread, as well as any unusual observations.</p></li>
-<li><p>Note that there are three commonly used measures of center and spread:</p></li>
-</ol>
+<li><p>Note that there are three commonly used measures of center and spread:</p>
 <ul>
 <li>center: mean (the arithmetic average), median (the midpoint), and mode (the most frequent observation).</li>
 <li>spread: standard deviation (variability around the mean), range (max-min), and interquartile range (middle 50% of the distribution).</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li><p>Identify the shape of a distribution as unimodal, bimodal, multimodal, or uniform; and if the shape is unimodal, further classify the distribution as symmetric, right skewed, or left skewed.</p></li>
 <li><p>Use histograms and box plots to visualize the shape, center, and spread of numerical distributions. Use intensity maps to visualize the spatial distribution of the data.</p></li>
 <li><p>Define a robust statistic (e.g. median, IQR) as a statistic that is not heavily affected by skewness or extreme outliers. Determine when robust statistics are more appropriate measures of center and spread compared to non-robust statistics.</p></li>
@@ -488,61 +489,56 @@ End of chapter exercises in Chapter 1 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-4-sep-6-8" class="section level2 unnumbered">
-<h2>Week 4: (Sep 6, 8)</h2>
+<div id="week-4-feb-7-9" class="section level2 unnumbered">
+<h2>Week 4: (Feb 7, 9)</h2>
 <ul>
 <li><p>Watch all videos for week three of <a href="https://www.coursera.org/learn/probability-intro"><em>Introduction to Probability and Data</em></a>.</p></li>
 <li><p>Read sections 2.1-2.5 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Read chapter 7 of <a href="https://alanarnholt.github.io/PDS-Bookdown2/"><em>PDS</em></a>.</p></li>
 <li><p>Complete chapter 3 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>probability_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., September 9, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2238">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>probability_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., February 10, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2732">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-section-2.1" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 2.1</h4>
 <ol style="list-style-type: decimal">
 <li><p>Define the probability of an outcome as the proportion of times the outcome would occur if we observed the random process that gives rise to it an infinite number of times.</p></li>
 <li><p>Explain why the long-run relative frequency of repeated independent events approaches the true probability as the number of trials increases, i.e. why the law of large numbers holds.</p></li>
-<li><p>Define disjoint (mutually exclusive) events as events that cannot both happen at the same time:</p></li>
-</ol>
+<li><p>Define disjoint (mutually exclusive) events as events that cannot both happen at the same time:</p>
 <ul>
 <li>if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are disjoint, <span class="math inline">\(P(A \cap B) = 0.\)</span></li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>Distinguish between disjoint and independent events.</li>
-</ol>
+</ul></li>
+<li><p>Distinguish between disjoint and independent events.</p>
 <ul>
-<li>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are independent, then having information on <span class="math inline">\(A\)</span> does not tell us anything about <span class="math inline">\(B\)</span> (and vice versa).</li>
-<li>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are disjoint, then knowing that <span class="math inline">\(A\)</span> occurs tells us that <span class="math inline">\(B\)</span> cannot occur (and vice versa).</li>
-<li>Disjoint (mutually exclusive) events are always dependent since if one event occurs we know the other one cannot <em>is not quite correct.</em> <strong>NOTE:</strong> <span class="math inline">\(P(A \cap B) = 0\)</span> if <span class="math inline">\(P(A)=0,\)</span> and then <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are both disjoint AND independent.</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
+<li><p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are independent, then having information on <span class="math inline">\(A\)</span> does not tell us anything about <span class="math inline">\(B\)</span> (and vice versa).</p></li>
+<li><p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are disjoint, then knowing that <span class="math inline">\(A\)</span> occurs tells us that <span class="math inline">\(B\)</span> cannot occur (and vice versa).</p></li>
+<li><p>Disjoint (mutually exclusive) events are always dependent since if one event occurs we know the other one cannot <em>is not quite correct.</em> <strong>NOTE:</strong> <span class="math inline">\(P(A \cap B) = 0\)</span> if <span class="math inline">\(P(A)=0,\)</span> and then <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are both disjoint AND independent.</p></li>
+</ul></li>
 <li><p>Draw Venn diagrams representing events and their probabilities.</p></li>
-<li><p>Define a probability distribution as a list of the possible outcomes with corresponding probabilities that satisfies three rules:</p></li>
-</ol>
+<li><p>Define a probability distribution as a list of the possible outcomes with corresponding probabilities that satisfies three rules:</p>
 <ul>
 <li>The outcomes listed must be disjoint.</li>
 <li>Each probability must be between 0 and 1, inclusive.</li>
 <li>The probabilities must total 1.</li>
-</ul>
-<ol start="7" style="list-style-type: decimal">
-<li>Define complementary outcomes as mutually exclusive outcomes of the same random process whose probabilities add up to 1.</li>
-</ol>
+</ul></li>
+<li><p>Define complementary outcomes as mutually exclusive outcomes of the same random process whose probabilities add up to 1.</p>
 <ul>
 <li>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are complementary, <span class="math inline">\(P(A) + P(B) = 1.\)</span> <span class="math inline">\(B\)</span> is often called <span class="math inline">\(A^c =\)</span> “<span class="math inline">\(A\)</span> complement.”</li>
-</ul>
-<ol start="8" style="list-style-type: decimal">
-<li>Distinguish between union of events (<span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>) and intersection of events (<span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>).</li>
-</ol>
+</ul></li>
+<li><p>Distinguish between union of events (<span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>) and intersection of events (<span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>).</p></li>
+<li>Calculate the probability of a union of events using the (general) addition rule:
 <ul>
-<li>Calculate the probability of a union of events using the (general) addition rule:</li>
 <li>if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are not mutually exclusive, <span class="math inline">\(P(A \cup B) = P(A) + P(B) - P(A \cap B):\)</span> and</li>
-<li><p>if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are mutually exclusive, <span class="math inline">\(P (A \cup B) = P (A) + P (B)\)</span>, since for mutually exclusive events <span class="math inline">\(P(A \cap B) = 0.\)</span></p></li>
-<li>Calculate the probability of the intersection of independent events using the multiplication rule:</li>
+<li>if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are mutually exclusive, <span class="math inline">\(P (A \cup B) = P (A) + P (B)\)</span>, since for mutually exclusive events <span class="math inline">\(P(A \cap B) = 0.\)</span></li>
+</ul></li>
+<li>Calculate the probability of the intersection of independent events using the multiplication rule:
+<ul>
 <li>if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are independent, <span class="math inline">\(P(A \cap B) = P(A) \times P(B)\)</span></li>
-<li><p>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are dependent, <span class="math inline">\(P(A \cap B) = P(A|B) \times P(B)\)</span></p></li>
-</ul>
+<li>If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are dependent, <span class="math inline">\(P(A \cap B) = P(A|B) \times P(B)\)</span></li>
+</ul></li>
+</ol>
 <div class="rmdexercise">
 <p>
 Test yourself:
@@ -595,10 +591,11 @@ End of chapter exercises in Chapter 2 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-5-sep-13-15" class="section level2 unnumbered">
-<h2>Week 5: (Sep 13, 15)</h2>
+<div id="week-5-feb-14-16" class="section level2 unnumbered">
+<h2>Week 5: (Feb 14, 16)</h2>
 <ul>
 <li><p>Watch all videos for week four of <a href="https://www.coursera.org/learn/probability-intro"><em>Introduction to Probability and Data</em></a>.</p></li>
 <li><p>Read sections 3.1, 3.2, and 3.4 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
@@ -610,13 +607,11 @@ End of chapter exercises in Chapter 2 of <a href="https://www.openintro.org/stat
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 3.1-3.2</h4>
 <ol style="list-style-type: decimal">
 <li><p>Define the standardized score (<span class="math inline">\(z\)</span>-score) of a data point as the number of standard deviations it is away from the mean: <span class="math inline">\(z = \frac{x - \mu}{\sigma}.\)</span></p></li>
-<li><p>Use the <span class="math inline">\(z\!~\text{-score}\)</span></p></li>
-</ol>
+<li><p>Use the <span class="math inline">\(z\!~\text{-score}\)</span></p>
 <ul>
-<li>if the distribution is normal to determine the percentile score of a data point (using technology or normal probability tables);</li>
-<li>regardless of the shape of the distribution to assess whether or not the particular observation is considered to be unusual (more than 2 standard deviations away from the mean).</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
+<li><p>if the distribution is normal to determine the percentile score of a data point (using technology or normal probability tables);</p></li>
+<li><p>regardless of the shape of the distribution to assess whether or not the particular observation is considered to be unusual (more than 2 standard deviations away from the mean).</p></li>
+</ul></li>
 <li><p>Depending on the shape of the distribution, determine whether the median would have a negative, positive, or zero <span class="math inline">\(z\)</span>-score, keeping in mind that the mean always has a <span class="math inline">\(z\)</span>-score of 0.</p></li>
 <li><p>Assess whether or not a distribution is nearly normal using either the 68-95-99.7% rule or graphical methods such as a normal probability plot.</p></li>
 </ol>
@@ -682,40 +677,33 @@ End of chapter exercises in Chapter 3 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-6-sep-20-22" class="section level2 unnumbered">
-<h2>Week 6: (Sep 20, 22)</h2>
-<ul>
-<li>Fork the <a href="https://github.com/STAT-ATA-ASU/StatsWithRProjects">StatsWithRProjects</a> repository to your private GitHub account. Complete the <code>Project1Template.Rmd</code> project, and submit your compiled <code>*html</code> file no later than 5:00 p.m., September 23, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2245">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</li>
-</ul>
-</div>
-<div id="week-7-sep-27-29" class="section level2 unnumbered">
-<h2>Week 7: (Sep 27, 29)</h2>
+<div id="week-6-feb-21-23" class="section level2 unnumbered">
+<h2>Week 6: (Feb 21, 23)</h2>
 <ul>
 <li><p>Watch all videos for week one of <a href="https://www.coursera.org/learn/inferential-statistics-intro/home/welcome"><em>Inferential Statistics</em></a>.</p></li>
 <li><p>Read sections 4.1-4.2 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Complete chapter 4 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>sampling_distributions_ASU2.Rmd</code> lab and submit your compiled <code>*html</code> file no later than <del>5:00 p.m., September 30</del> 11:00 p.m., October 2, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2239">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>sampling_distributions_ASU2.Rmd</code> lab and submit your compiled <code>*html</code> file no later than 5:00 p.m., February 24 to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2733">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-section-4.1" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 4.1</h4>
 <ol style="list-style-type: decimal">
 <li><p>Define a statistic as a point estimate for a population parameter. For example, the sample mean is used to estimate the population mean. Note that “point estimate” and “statistic” are synonymous.</p></li>
 <li><p>Recognize that point estimates (such as the sample mean) will vary from one sample to another. We define this variability as sampling variability (sometimes called sampling variation).</p></li>
-<li><p>Calculate the sampling variability of the mean, the standard deviation of <span class="math inline">\(\bar{x}\)</span>, as <span class="math inline">\(\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}\)</span> where <span class="math inline">\(\sigma\)</span> is the population standard deviation.</p></li>
-</ol>
+<li><p>Calculate the sampling variability of the mean, the standard deviation of <span class="math inline">\(\bar{x}\)</span>, as <span class="math inline">\(\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}\)</span> where <span class="math inline">\(\sigma\)</span> is the population standard deviation.</p>
 <ul>
 <li>Note that when the population standard deviation <span class="math inline">\(\sigma\)</span> is not known (almost always), the standard error <span class="math inline">\(SE\)</span> can be computed using the sample standard deviation <span class="math inline">\(s\)</span>, so that <span class="math inline">\(SE_{\bar{x}} = \frac{s}{\sqrt{n}}\)</span>.</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li><p>Distinguish between standard deviation (<span class="math inline">\(\sigma\)</span> or <span class="math inline">\(s\)</span>) and standard error (<span class="math inline">\(SE\)</span>): standard deviation measures the variability in the data, while standard error measures the variability in point estimates from different samples of the same size and from the same population; it measures the sampling variability.</p></li>
-<li><p>Recognize that when the sample size increases we would expect the sampling variability to decrease.</p></li>
-</ol>
+<li><p>Recognize that when the sample size increases we would expect the sampling variability to decrease.</p>
 <ul>
-<li>Conceptually: Imagine taking many samples from the population. When the size of each sample is large, the sample means will be much more consistent across samples than when the sample sizes are small.</li>
-<li>Mathematically: Remember <span class="math inline">\(SE = \frac{s}{\sqrt{n}}\)</span>. Then, when <span class="math inline">\(n\)</span> increases, <span class="math inline">\(SE\)</span> will decrease since <span class="math inline">\(n\)</span> is in the denominator.</li>
-</ul>
+<li><p>Conceptually: Imagine taking many samples from the population. When the size of each sample is large, the sample means will be much more consistent across samples than when the sample sizes are small.</p></li>
+<li><p>Mathematically: Remember <span class="math inline">\(SE = \frac{s}{\sqrt{n}}\)</span>. Then, when <span class="math inline">\(n\)</span> increases, <span class="math inline">\(SE\)</span> will decrease since <span class="math inline">\(n\)</span> is in the denominator.</p></li>
+</ul></li>
+</ol>
 </div>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-section-4.2" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 4.2</h4>
@@ -730,25 +718,23 @@ End of chapter exercises in Chapter 3 of <a href="https://www.openintro.org/stat
 \label{clt}
 \end{equation}\]</span>
 <ol start="4" style="list-style-type: decimal">
-<li>Recall that independence of observations in a sample is provided by random sampling (in the case of observational studies) or random assignment (in the case of experiments).</li>
-</ol>
-<p>In addition, the sample should not be too large compared to the population. More precisely, the sample should be smaller than 10% of the population. Samples that are too large will likely contain observations that are not independent.</p>
-<ol start="5" style="list-style-type: decimal">
-<li>Recognize that the nearly normal distribution of the point estimate (as suggested by the CLT) implies that a confidence interval can be calculated as</li>
-</ol>
+<li><p>Recall that independence of observations in a sample is provided by random sampling (in the case of observational studies) or random assignment (in the case of experiments).</p>
+<ul>
+<li>In addition, the sample should not be too large compared to the population. More precisely, the sample should be smaller than 10% of the population. Samples that are too large will likely contain observations that are not independent.</li>
+</ul></li>
+<li><p>Recognize that the nearly normal distribution of the point estimate (as suggested by the CLT) implies that a confidence interval can be calculated as</p>
 <ul>
 <li><span class="math inline">\(\text{point estimate} \pm z_{1 - \alpha/2}\cdot SD_{\text{point estimate}}\)</span>—For averages this is: <span class="math inline">\(\bar{x} \pm z_{1 - \alpha/2}\cdot \frac{\sigma}{\sqrt{n}}\)</span></li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
-<li>Define margin of error as the distance required to travel in either direction away from the point estimate when constructing a confidence interval, i.e. <span class="math inline">\(z_{1 - \alpha/2}\cdot \frac{\sigma}{\sqrt{n}}.\)</span></li>
+</ul></li>
+<li><p>Define margin of error as the distance required to travel in either direction away from the point estimate when constructing a confidence interval, i.e. <span class="math inline">\(z_{1 - \alpha/2}\cdot \frac{\sigma}{\sqrt{n}}.\)</span></p></li>
 </ol>
 <p>Notice that this corresponds to half the width of the confidence interval.</p>
 <ol start="7" style="list-style-type: decimal">
-<li>Interpret a confidence interval as “We are XX% confident that the true population parameter is in this interval,” where XX% is the desired confidence level.</li>
-</ol>
+<li><p>Interpret a confidence interval as “We are XX% confident that the true population parameter is in this interval,” where XX% is the desired confidence level.</p>
 <ul>
 <li>Note that your interpretation must always be in context of the data – mention what the population is and what the parameter is (mean or proportion).</li>
-</ul>
+</ul></li>
+</ol>
 <div class="rmdexercise">
 <p>
 Test yourself:
@@ -833,66 +819,55 @@ End of chapter exercises in Chapter 4 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-8-oct-4-6" class="section level2 unnumbered">
-<h2>Week 8: (Oct 4, 6)</h2>
+<div id="week-7-feb-28-mar-2" class="section level2 unnumbered">
+<h2>Week 7: (Feb 28, Mar 2)</h2>
 <ul>
 <li><p>Watch all videos for week two of <a href="https://www.coursera.org/learn/inferential-statistics-intro/home/welcome"><em>Inferential Statistics</em></a>.</p></li>
 <li><p>Read sections 4.3-4.6 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Read chapter 10 of <a href="https://alanarnholt.github.io/PDS-Bookdown2/"><em>PDS</em></a>.</p></li>
 <li><p>Complete chapter 5 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>confidence_intervals_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., October 7, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2240">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>confidence_intervals_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., March 3, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2734">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-section-4.3" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 4.3</h4>
 <ol style="list-style-type: decimal">
 <li><p>Explain how the hypothesis testing framework resembles a court trial.</p></li>
-<li><p>Recognize that in hypothesis testing we evaluate two competing claims:</p></li>
-</ol>
+<li><p>Recognize that in hypothesis testing we evaluate two competing claims:</p>
 <ul>
-<li>the null hypothesis, which represents a skeptical perspective or the status quo, and</li>
-<li>the alternative hypothesis, which represents an alternative under consideration and is often represented by a range of possible parameter values.</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>Construction of hypotheses:</li>
-</ol>
+<li><p>the null hypothesis, which represents a skeptical perspective or the status quo, and</p></li>
+<li><p>the alternative hypothesis, which represents an alternative under consideration and is often represented by a range of possible parameter values.</p></li>
+</ul></li>
+<li><p>Construction of hypotheses:</p>
 <ul>
-<li>Always construct hypotheses about population parameters (e.g. population mean, <span class="math inline">\(\mu\)</span>) and not the sample statistics (e.g. sample mean, <span class="math inline">\(\bar{x}\)</span>). Note that the population parameter is unknown while the statistic is measured using the observed data and hence there is no point in hypothesizing about it.</li>
-<li>Define the null value as the value the parameter is set to equal in the null hypothesis.</li>
-<li>The alternative hypothesis may be one-sided (<span class="math inline">\(\mu &lt;\)</span> or <span class="math inline">\(&gt;\)</span> the null value) or two-sided (<span class="math inline">\(\mu \ne\)</span> the null value). The choice depends on the research question.</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>Define a <span class="math inline">\(p\!~\text{-value}\)</span> as the conditional probability of obtaining a statistic at least as extreme as the one observed given that the null hypothesis is true.</li>
-</ol>
+<li><p>Always construct hypotheses about population parameters (e.g. population mean, <span class="math inline">\(\mu\)</span>) and not the sample statistics (e.g. sample mean, <span class="math inline">\(\bar{x}\)</span>). Note that the population parameter is unknown while the statistic is measured using the observed data and hence there is no point in hypothesizing about it.</p></li>
+<li><p>Define the null value as the value the parameter is set to equal in the null hypothesis.</p></li>
+<li><p>The alternative hypothesis may be one-sided (<span class="math inline">\(\mu &lt;\)</span> or <span class="math inline">\(&gt;\)</span> the null value) or two-sided (<span class="math inline">\(\mu \ne\)</span> the null value). The choice depends on the research question.</p></li>
+</ul></li>
+<li><p>Define a <span class="math inline">\(p\!~\text{-value}\)</span> as the conditional probability of obtaining a statistic at least as extreme as the one observed given that the null hypothesis is true.</p>
 <ul>
 <li><span class="math inline">\(p\!~\text{-value}\)</span>=P(observed or more extreme statistic | <span class="math inline">\(H_0\)</span> true)</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Calculate a <span class="math inline">\(p\!~\text{-value}\)</span> as the area under the normal curve beyond the observed sample mean (either in one tail or both, depending on the alternative hypothesis). Note that in doing so you can use a <span class="math inline">\(z\!~\text{-score}\)</span>, where</li>
-</ol>
+</ul></li>
+<li><p>Calculate a <span class="math inline">\(p\!~\text{-value}\)</span> as the area under the normal curve beyond the observed sample mean (either in one tail or both, depending on the alternative hypothesis). Note that in doing so you can use a <span class="math inline">\(z\!~\text{-score}\)</span>, where</p>
 <ul>
 <li><p><span class="math inline">\(p\!~\text{-value}\)</span>=P(observed or more extreme statistic | <span class="math inline">\(H_0\)</span> true)</p></li>
 <li><p>Always sketch the normal curve when calculating the <span class="math inline">\(p\!~\text{-value}\)</span>, and shade the appropriate area(s) depending on whether the alternative hypothesis is one- or two-sided.</p></li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
+</ul></li>
 <li><p>Infer that if a confidence interval does not contain the null value, the null hypothesis should be rejected in favor of the alternative.</p></li>
-<li><p>Compare the <span class="math inline">\(p\!~\text{-value}\)</span> to the significance level to make a decision between the hypotheses:</p></li>
-</ol>
+<li><p>Compare the <span class="math inline">\(p\!~\text{-value}\)</span> to the significance level to make a decision between the hypotheses:</p>
 <ul>
-<li>If the <span class="math inline">\(p\!~\text{-value}\)</span> &lt; the significance level, reject the null hypothesis. This means that obtaining a statistic at least as extreme as the observed data is extremely unlikely to happen just by chance. Conclude that the data provides evidence for the alternative hypothesis.</li>
-<li>If the <span class="math inline">\(p\!~\text{-value}\)</span> &gt; the significance level, fail to reject the null hypothesis. This means that obtaining a statistic at least as extreme as the observed data is likely to happen by chance. Conclude that the data does not provide evidence for the alternative hypothesis.</li>
-<li>Note that we can never “accept” the null hypothesis since the hypothesis testing framework does not allow us to confirm it.</li>
-</ul>
-<ol start="8" style="list-style-type: decimal">
-<li>Note that the conclusion of a hypothesis test might be erroneous regardless of the decision we make.</li>
-</ol>
+<li><p>If the <span class="math inline">\(p\!~\text{-value}\)</span> &lt; the significance level, reject the null hypothesis. This means that obtaining a statistic at least as extreme as the observed data is extremely unlikely to happen just by chance. Conclude that the data provides evidence for the alternative hypothesis.</p></li>
+<li><p>If the <span class="math inline">\(p\!~\text{-value}\)</span> &gt; the significance level, fail to reject the null hypothesis. This means that obtaining a statistic at least as extreme as the observed data is likely to happen by chance. Conclude that the data does not provide evidence for the alternative hypothesis.</p></li>
+<li><p>Note that we can never “accept” the null hypothesis since the hypothesis testing framework does not allow us to confirm it.</p></li>
+</ul></li>
+<li><p>Note that the conclusion of a hypothesis test might be erroneous regardless of the decision we make.</p>
 <ul>
-<li>Define a Type I error as rejecting the null hypothesis when the null hypothesis is actually true.</li>
-<li>Define a Type II error as failing to reject the null hypothesis when the alternative hypothesis is actually true.</li>
-</ul>
-<ol start="9" style="list-style-type: decimal">
-<li>Note that the probability of making a Type I error is equivalent to the significance level, and choose a significance level depending on the risks associated with Type I and Type II errors.</li>
+<li><p>Define a Type I error as rejecting the null hypothesis when the null hypothesis is actually true.</p></li>
+<li><p>Define a Type II error as failing to reject the null hypothesis when the alternative hypothesis is actually true.</p></li>
+</ul></li>
+<li><p>Note that the probability of making a Type I error is equivalent to the significance level, and choose a significance level depending on the risks associated with Type I and Type II errors.</p></li>
 </ol>
 <p>Use a smaller <span class="math inline">\(\alpha\)</span> if a Type I error is more critical than a Type II error. Use a larger <span class="math inline">\(\alpha\)</span> if a Type II error is more critical than a Type I error.</p>
 </div>
@@ -901,10 +876,10 @@ End of chapter exercises in Chapter 4 of <a href="https://www.openintro.org/stat
 <ol style="list-style-type: decimal">
 <li><p>Recognize that sampling distributions of point estimates coming from samples that don’t meet the required conditions for the CLT (about sample size, skew, and independence) will not be normal.</p></li>
 <li><p>Formulate the framework for statistical inference using hypothesis testing and nearly normal point estimates:</p></li>
-<li>Set up the hypotheses first in plain language and then using appropriate notation.</li>
-<li>Identify the appropriate statistic that can be used as a point estimate for the parameter of interest.</li>
-<li>Verify that the conditions for the CLT hold.</li>
-<li>Compute the <span class="math inline">\(SE\)</span>, sketch the sampling distribution, and shade area(s) representing the <span class="math inline">\(p\!~\text{-value}\)</span>.</li>
+<li><p>Set up the hypotheses first in plain language and then using appropriate notation.</p></li>
+<li><p>Identify the appropriate statistic that can be used as a point estimate for the parameter of interest.</p></li>
+<li><p>Verify that the conditions for the CLT hold.</p></li>
+<li><p>Compute the <span class="math inline">\(SE\)</span>, sketch the sampling distribution, and shade area(s) representing the <span class="math inline">\(p\!~\text{-value}\)</span>.</p></li>
 <li><p>Using the sketch and the normal model, calculate the <span class="math inline">\(p\!~\text{-value}\)</span>; and determine if the null hypothesis should be rejected or not. State your conclusion in context of the data and the research question.</p></li>
 <li><p>If the conditions necessary for the CLT to hold are not met, note this and do not go forward with the analysis. (We will learn later about methods to use in these situations.)</p></li>
 <li><p>Calculate the required sample size to obtain a given margin of error at a given confidence level by working backwards from the given margin of error.</p></li>
@@ -1002,27 +977,18 @@ End of chapter exercises in Chapter 4 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-9-oct-11fall-break-oct-13-14" class="section level2 unnumbered">
-<h2>Week 9: (Oct 11—Fall Break Oct 13, 14)</h2>
-<div class="rmdnote">
-<ul>
-<li>
-Midterm Exam—October 11
-</li>
-</ul>
-</div>
-</div>
-<div id="week-10-oct-18-20" class="section level2 unnumbered">
-<h2>Week 10: (Oct 18, 20)</h2>
+<div id="week-8-mar-7-9" class="section level2 unnumbered">
+<h2>Week 8: (Mar 7, 9)</h2>
 <ul>
 <li><p>Watch all videos for week three of <a href="https://www.coursera.org/learn/inferential-statistics-intro/home/welcome"><em>Inferential Statistics</em></a>.</p></li>
 <li><p>Read sections 5.1-5.5 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
-<li><p>Read <a href="https://alanarnholt.github.io/STT3850/Notes/Parent/Parent.html"><em>Can A New Drug Reduce the Spread of Schistosomiasis?</em></a>—Use control f on the web page to find the appropriate text inside the notes.</p></li>
+<li><p>Read <a href="https://alanarnholt.github.io/STT3850/Notes/Parent/Parent.html"><em>Can A New Drug Reduce the Spread of Schistosomiasis?</em></a>—Use <em>Ctrl f</em> on the web page to find the appropriate text inside the notes.</p></li>
 <li><p>Read chapter 11 of <a href="https://alanarnholt.github.io/PDS-Bookdown2/"><em>PDS</em></a>.</p></li>
 <li><p>Complete chapter 6 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>inf_for_numerical_data_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., October 21, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2241">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>inf_for_numerical_data_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., March 10, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2735">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-sections-5.1-5.4" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Sections 5.1-5.4</h4>
@@ -1031,37 +997,33 @@ Midterm Exam—October 11
 <li><p>Explain how the shape of the <span class="math inline">\(t\)</span>-distribution accounts for the additional variability introduced by using <span class="math inline">\(s\)</span> (sample standard deviation) in place of <span class="math inline">\(\sigma\)</span> (population standard deviation).</p></li>
 <li><p>Describe how the <span class="math inline">\(t\)</span>-distribution is different from the normal distribution and what “heavy tail” means in this context.</p></li>
 <li><p>Note that the <span class="math inline">\(t\)</span>-distribution has a single parameter, degrees of freedom. As the number of degrees of freedom increases, this distribution approaches the normal distribution.</p></li>
-<li><p>Use a <span class="math inline">\(t\)</span>-statistic with degrees of freedom <span class="math inline">\(df=n-1\)</span> for inference for a population mean:</p></li>
-</ol>
+<li><p>Use a <span class="math inline">\(t\)</span>-statistic with degrees of freedom <span class="math inline">\(df=n-1\)</span> for inference for a population mean:</p>
 <ul>
 <li><p>CI: <span class="math inline">\(\bar{x} \pm t_{1-\alpha/2, n-1}\cdot SE_{\bar{x}}\)</span></p></li>
 <li><p>HT: <span class="math inline">\(t_{n-1}=\frac{\bar{x}-\mu_0}{SE_{\bar{x}}}\)</span> where <span class="math inline">\(SE_{\bar{x}} = \frac{s}{\sqrt{n}}.\)</span></p></li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
+</ul></li>
 <li><p>Describe how to obtain a <span class="math inline">\(p\!~\text{-value}\)</span> for a <span class="math inline">\(t\!~\text{-test}\)</span> and a critical <span class="math inline">\(t_{1 - \alpha/2, n-1}\)</span> value for a confidence interval.</p></li>
 <li><p>Define observations as paired if each observation in one dataset has a special correspondence or connection with exactly one observation in the other data set.</p></li>
 <li><p>Carry out inference for paired data by first subtracting the paired observations from each other. Then, treat the set of differences as a new numerical variable on which to do inference (such as a confidence interval or hypothesis test for the average difference).</p></li>
 <li><p>Calculate the standard error of the mean difference between two paired (dependent) samples as <span class="math inline">\(SE = \frac{s_{diff}}{\sqrt{n_{diff}}}.\)</span> Use this standard error in hypothesis testing and confidence intervals comparing means of paired (dependent) groups.</p></li>
-<li><p>Use a <span class="math inline">\(t\)</span>-statistic, with degrees of freedom <span class="math inline">\(df=n_{diff}-1\)</span> for inference with the mean difference in two paired (dependent) samples:</p></li>
-</ol>
+<li><p>Use a <span class="math inline">\(t\)</span>-statistic, with degrees of freedom <span class="math inline">\(df=n_{diff}-1\)</span> for inference with the mean difference in two paired (dependent) samples:</p>
 <ul>
 <li><p>CI: <span class="math inline">\(\bar{x}_{diff} \pm t_{1-\alpha/2, n_{diff}-1}\cdot SE\)</span></p></li>
 <li><p>HT: <span class="math inline">\(t_{n_{diff}-1}=\frac{\bar{x}_{diff}-\mu_0}{SE}\)</span> where <span class="math inline">\(SE = \frac{s_{diff}}{\sqrt{n_{diff}}}.\)</span></p></li>
-</ul>
-<ol start="11" style="list-style-type: decimal">
+</ul></li>
 <li><p>Recognize that a good interpretation of a confidence interval for the difference between two parameters includes a comparative statement (mentioning which group has the larger parameter).</p></li>
 <li><p>Recognize that a confidence interval for the difference between two parameters that doesn’t include 0 is in agreement with a hypothesis test where the null hypothesis that sets the two parameters equal to each other is rejected.</p></li>
 <li><p>Calculate the standard error for the difference between means of two independent samples as <span class="math inline">\(SE = \sqrt{\frac{s_1^2}{n_1}+\frac{s^2_2}{n_2}}.\)</span> Use this standard error in hypothesis testing and confidence intervals comparing means of independent groups.</p></li>
-<li><p>Use a <span class="math inline">\(t\)</span>-statistic with <span class="math inline">\(\nu\)</span> degrees of freedom for conducting inference with the difference in two independent means:</p></li>
-</ol>
+<li><p>Use a <span class="math inline">\(t\)</span>-statistic with <span class="math inline">\(\nu\)</span> degrees of freedom for conducting inference with the difference in two independent means:</p>
 <ul>
 <li><p>CI: <span class="math inline">\(\bar{x}_1 - \bar{x}_2 \pm t_{1-\alpha/2, \nu}\cdot SE\)</span></p></li>
 <li><p>HT: <span class="math inline">\(t_{\nu}=\frac{(\bar{x}_1 - \bar{x}_2) -(\mu_1 -\mu_2)}{SE}\)</span> where <span class="math inline">\(SE = \sqrt{\frac{s_1^2}{n_1}+\frac{s^2_2}{n_2}}.\)</span></p></li>
-</ul>
-<ol start="15" style="list-style-type: decimal">
-<li><p>Calculate the power of a test for a given effect size and significance level in two steps:</p></li>
+</ul></li>
+<li><p>Calculate the power of a test for a given effect size and significance level in two steps:</p>
+<ol style="list-style-type: decimal">
 <li>Find the cutoff for the statistic that will allow the null hypothesis to be rejected at the given significance level.</li>
-<li><p>Calculate the probability of obtaining that statistic given the effect size.</p></li>
+<li>Calculate the probability of obtaining that statistic given the effect size.</li>
+</ol></li>
 <li><p>Explain how power changes for changes in effect size, sample size, significance level, and standard error.</p></li>
 </ol>
 </div>
@@ -1076,34 +1038,32 @@ H_O:&amp;\mu_1 = \mu_2,\ldots,\mu_k\\
 H_A:&amp; \text{at least one mean is different}
 \end{align*}\]</span>
 <ol start="3" style="list-style-type: decimal">
-<li><p>List the conditions necessary for performing ANOVA:</p></li>
-<li>The observations should be independent within and across groups.</li>
-<li>The data within each group should be nearly normal</li>
+<li><p>List the conditions necessary for performing ANOVA:</p>
+<ol style="list-style-type: decimal">
+<li><p>The observations should be independent within and across groups.</p></li>
+<li><p>The data within each group should be nearly normal</p></li>
 <li><p>The variability across the groups should be roughly equal.</p></li>
+</ol></li>
 </ol>
 <p>Use graphical diagnostics to check if these conditions are met.</p>
 <ol start="4" style="list-style-type: decimal">
-<li>Recognize that the test statistic for ANOVA, the <span class="math inline">\(F\)</span>-statistic, is calculated as the ratio of the mean square between groups (<span class="math inline">\(MSG\)</span>, variability between groups) and mean square error (<span class="math inline">\(MSE\)</span>, variability within groups errors). Also recognize that the <span class="math inline">\(F\)</span>-statistic has a right skewed distribution with two different measures of degrees of freedom: one for the numerator (<span class="math inline">\(df_G=k-1,\)</span> where <span class="math inline">\(k\)</span> is the number of groups) and one for the denominator (<span class="math inline">\(df_E=n-k,\)</span> where <span class="math inline">\(n\)</span> is the total sample size).</li>
-</ol>
+<li><p>Recognize that the test statistic for ANOVA, the <span class="math inline">\(F\)</span>-statistic, is calculated as the ratio of the mean square between groups (<span class="math inline">\(MSG\)</span>, variability between groups) and mean square error (<span class="math inline">\(MSE\)</span>, variability within groups errors). Also recognize that the <span class="math inline">\(F\)</span>-statistic has a right skewed distribution with two different measures of degrees of freedom: one for the numerator (<span class="math inline">\(df_G=k-1,\)</span> where <span class="math inline">\(k\)</span> is the number of groups) and one for the denominator (<span class="math inline">\(df_E=n-k,\)</span> where <span class="math inline">\(n\)</span> is the total sample size).</p>
 <ul>
 <li>Note that you will not be expected to calculate <span class="math inline">\(MSG\)</span> or <span class="math inline">\(MSE\)</span> from the raw data. However, you should have a conceptual understanding of how they are calculated and what they measure.</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
+</ul></li>
 <li><p>Describe why calculation of the <span class="math inline">\(p\!~\text{-value}\)</span> for ANOVA is always “one sided.”</p></li>
-<li><p>Describe why conducting many <span class="math inline">\(t\!~\text{-test}\)</span>s for differences between each pair of means leads to an increased Type I Error rate and why we use a corrected significance level (Bonferroni correction, <span class="math inline">\(\alpha^*=\alpha/K\)</span>, where <span class="math inline">\(K\)</span> is the number of comparisons being considered) to combat inflating this error rate.</p></li>
-</ol>
+<li><p>Describe why conducting many <span class="math inline">\(t\!~\text{-test}\)</span>s for differences between each pair of means leads to an increased Type I Error rate and why we use a corrected significance level (Bonferroni correction, <span class="math inline">\(\alpha^*=\alpha/K\)</span>, where <span class="math inline">\(K\)</span> is the number of comparisons being considered) to combat inflating this error rate.</p>
 <ul>
 <li>Note that <span class="math inline">\(K = \frac{k(k-1)}{2}\)</span>, where <span class="math inline">\(k\)</span> is the number of groups.</li>
-</ul>
-<ol start="7" style="list-style-type: decimal">
+</ul></li>
 <li><p>Describe why it is possible to reject the null hypothesis in ANOVA but not find significant differences between groups when doing pairwise comparisons.</p></li>
 <li><p>Describe how bootstrap distributions are constructed. Recognize how bootstrap distributions are different from sampling distributions.</p></li>
-<li><p>Construct bootstrap confidence intervals using one of the following methods:</p></li>
-</ol>
+<li><p>Construct bootstrap confidence intervals using one of the following methods:</p>
 <ul>
-<li>Percentile method: XX% confidence level is the middle XX% of the bootstrap distribution.</li>
-<li>Standard error method: If the standard error of the bootstrap distribution is known and the distribution is nearly normal, the bootstrap interval can also be calculated as</li>
-</ul>
+<li><p>Percentile method: XX% confidence level is the middle XX% of the bootstrap distribution.</p></li>
+<li><p>Standard error method: If the standard error of the bootstrap distribution is known and the distribution is nearly normal, the bootstrap interval can also be calculated as</p></li>
+</ul></li>
+</ol>
 <span class="math display">\[\begin{equation}
 \text{point estimate} \pm t_{1 - \alpha/2, df}\cdot SE_{boot}.
 \label{bsci}
@@ -1190,30 +1150,33 @@ End of chapter exercises in Chapter 5 of <a href="https://www.openintro.org/stat
 </div>
 <div class="rmdnote">
 <p>
-<a href="../rmarkdownSTUFF/Baseball.html">Discuss</a>
+<a href="https://stat-ata-asu.github.io/STT5811ClassRepo/rmarkdownSTUFF/Baseball.html">Discuss</a>
 </p>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-11-oct-25-27" class="section level2 unnumbered">
-<h2>Week 11: (Oct 25, 27)</h2>
+<div id="spring-break-mar-13---17" class="section level2">
+<h2>Spring Break: Mar 13 - 17</h2>
+<hr />
+</div>
+<div id="week-9-mar-21-23" class="section level2 unnumbered">
+<h2>Week 9: (Mar 21, 23)</h2>
 <ul>
 <li><p>Watch all videos for week four of <a href="https://www.coursera.org/learn/inferential-statistics-intro/home/welcome"><em>Inferential Statistics</em></a>.</p></li>
 <li><p>Read sections 6.1-6.6 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Read chapter 12 of <a href="https://alanarnholt.github.io/PDS-Bookdown2/"><em>PDS</em></a>.</p></li>
 <li><p>Complete chapter 7 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>inf_for_categorical_data_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., October 28, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2242">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>inf_for_categorical_data_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., March 24, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2736">CrowdGrader</a>. Make sure you commit and push your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-sections-6.1-6.2" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Sections 6.1-6.2</h4>
 <ol style="list-style-type: decimal">
 <li><p>Define the population proportion as <span class="math inline">\(p\)</span> (parameter) and sample proportion as <span class="math inline">\(\hat{p}\)</span>.</p></li>
-<li><p>Calculate the sampling variability of the proportion, the standard deviation, as <span class="math inline">\(\sigma_{\hat{p}}=SD_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}\)</span>, where <span class="math inline">\(p\)</span> is the population proportion.</p></li>
-</ol>
+<li><p>Calculate the sampling variability of the proportion, the standard deviation, as <span class="math inline">\(\sigma_{\hat{p}}=SD_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}\)</span>, where <span class="math inline">\(p\)</span> is the population proportion.</p>
 <ul>
 <li>Note that when the population proportion <span class="math inline">\(p\)</span> is not known (almost always), the standard error of the sample proportion is written as <span class="math inline">\(SE_{\hat{p}} = \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}.\)</span></li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
+</ul></li>
 <li>Recognize that the Central Limit Theorem (CLT) is about the distribution of point estimates. Under certain conditions, the distribution of <span class="math inline">\(\hat{p}\)</span> will be nearly normal. The CLT tells us that if
 <ul>
 <li>the observations in the sample are independent,</li>
@@ -1226,52 +1189,44 @@ End of chapter exercises in Chapter 5 of <a href="https://www.openintro.org/stat
 \end{equation}\]</span>
 <ol start="4" style="list-style-type: decimal">
 <li><p>Note that if the CLT doesn’t apply and the sample proportion is low (close to 0), the sampling distribution will likely be right skewed. If the sample proportion is high (close to 1), the sampling distribution will likely be left skewed.</p></li>
-<li><p>Remember that confidence intervals are calculated as</p></li>
-</ol>
+<li><p>Remember that confidence intervals are calculated as</p>
 <ul>
-<li><span class="math inline">\(\text{point estimate} \pm \text{margin of error}\)</span></li>
+<li><p><span class="math inline">\(\text{point estimate} \pm \text{margin of error}\)</span></p></li>
 <li><p>and standardized test statistics are calculated as</p></li>
 <li><p><span class="math inline">\(Z = \frac{\text{statistic} - \mu_{\text{statistic}}}{\sigma_{\text{statistic}}}\)</span></p></li>
 <li><p><span class="math inline">\(T = \frac{\text{statistic} - \mu_{\text{statistic}}}{\hat{\sigma}_{\text{statistic}}}\)</span></p></li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
-<li>Note that the standard error calculation for the confidence interval and the hypothesis test are different when dealing with proportions. With hypothesis testing we assume that the null hypothesis is true. Remember: <span class="math inline">\(p\!~\text{-value}\)</span> = P(observed or more extreme test statistic | <span class="math inline">\(H_0\)</span> true).</li>
-</ol>
+</ul></li>
+<li><p>Note that the standard error calculation for the confidence interval and the hypothesis test are different when dealing with proportions. With hypothesis testing we assume that the null hypothesis is true. Remember: <span class="math inline">\(p\!~\text{-value}\)</span> = P(observed or more extreme test statistic | <span class="math inline">\(H_0\)</span> true).</p>
 <ul>
 <li><p>For confidence intervals use <span class="math inline">\(\hat{p}\)</span> (observed sample proportion) when calculating the standard error and checking the success/failure condition:</p></li>
 <li><p><span class="math inline">\(SE_{\hat{p}} = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}\)</span></p></li>
 <li><p>For hypothesis tests use <span class="math inline">\(p_0\)</span> (null value) when calculating the standard error and checking the success/failure condition:</p></li>
 <li><p><span class="math inline">\(SE_{\hat{p}} = \sqrt{\frac{p_0(1 - p_0)}{n}}\)</span></p></li>
-</ul>
+</ul></li>
+</ol>
 <p>Such a discrepancy does not exist when conducting inference for means since the mean does not factor into the calculation of the standard error.</p>
 <ol start="7" style="list-style-type: decimal">
-<li>Explain why when calculating the required minimum sample size for a given margin of error at a given confidence level we use <span class="math inline">\(\hat{p} = 0.5\)</span> if there are no previous studies suggesting a more accurate estimate.</li>
-</ol>
+<li><p>Explain why when calculating the required minimum sample size for a given margin of error at a given confidence level we use <span class="math inline">\(\hat{p} = 0.5\)</span> if there are no previous studies suggesting a more accurate estimate.</p>
 <ul>
 <li><p>Conceptually: When there is no additional information, 50% chance of success is a good guess for events with only two outcomes (success or failure).</p></li>
 <li><p>Mathematically: Using <span class="math inline">\(\hat{p} = 0.5\)</span> yields the most conservative (highest) estimate for the required sample size.</p></li>
-</ul>
-<ol start="8" style="list-style-type: decimal">
-<li>Note that the calculation of the standard error for the distribution of the difference in two independent sample proportions differs for a confidence interval and a hypothesis test.</li>
-</ol>
+</ul></li>
+<li><p>Note that the calculation of the standard error for the distribution of the difference in two independent sample proportions differs for a confidence interval and a hypothesis test.</p>
 <ul>
 <li><p>confidence interval and hypothesis test when <span class="math inline">\(H_0: p_1 - p_2 = \text{some value other than 0:}\)</span> <span class="math inline">\(SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{\hat{p}_1(1 - \hat{p}_1)}{n_1} + \frac{\hat{p}_2(1 - \hat{p}_2)}{n_2}}\)</span></p></li>
 <li><p>hypothesis test when <span class="math inline">\(H_0:p_1 - p_2 = 0:\)</span> <span class="math inline">\(SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{\hat{p}_{pool}(1 - \hat{p}_{pool})}{n_1} + \frac{\hat{p}_{pool}(1 - \hat{p}_{pool})}{n_2}}\)</span> where <span class="math inline">\(\hat{p}_{pool}\)</span> is the overall rate of success: <span class="math inline">\(\hat{p}_{pool} = \frac{\text{number of successes in group 1 + number of successes in group 2}}{n_1 + n_2}\)</span></p></li>
-</ul>
-<ol start="9" style="list-style-type: decimal">
-<li>Note that the reason for the difference in calculations of standard error is the same as in the case of the single proportion. When the null hypothesis claims that the two population proportions are equal, we need to take that information into consideration when calculating the standard error for the hypothesis test. Consequently, we use a common proportion for both samples.</li>
+</ul></li>
+<li><p>Note that the reason for the difference in calculations of standard error is the same as in the case of the single proportion. When the null hypothesis claims that the two population proportions are equal, we need to take that information into consideration when calculating the standard error for the hypothesis test. Consequently, we use a common proportion for both samples.</p></li>
 </ol>
 </div>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-sections-6.3-6.6" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Sections 6.3-6.6</h4>
 <ol style="list-style-type: decimal">
-<li>Use a chi-squared test of goodness of fit to evaluate if the distribution of levels of a single categorical variable follows a hypothesized distribution.</li>
-</ol>
+<li><p>Use a chi-squared test of goodness of fit to evaluate if the distribution of levels of a single categorical variable follows a hypothesized distribution.</p>
 <ul>
 <li><p><span class="math inline">\(H_0:\)</span> The distribution of observed counts follows the hypothesized distribution and any observed differences are due to chance.</p></li>
 <li><p><span class="math inline">\(H_A:\)</span> The distribution of observed counts does not follow the hypothesized distribution.</p></li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
+</ul></li>
 <li><p>Calculate the expected counts for a given level (cell) in a one-way table as the sample size times the hypothesized proportion for that level.</p></li>
 <li><p>Calculate the chi-squared test statistic as</p></li>
 </ol>
@@ -1279,38 +1234,34 @@ End of chapter exercises in Chapter 5 of <a href="https://www.openintro.org/stat
 <ol start="4" style="list-style-type: decimal">
 <li><p>Note that the chi-squared statistic is always positive and follows a right skewed distribution with one parameter, which is the degrees of freedom.</p></li>
 <li><p>Note that the degrees of freedom for the chi-squared statistic for the goodness of fit test is <span class="math inline">\(df=k-1\)</span>.</p></li>
-<li><p>List the conditions necessary for performing a chi-squared test (goodness of fit or independence)</p></li>
+<li><p>List the conditions necessary for performing a chi-squared test (goodness of fit or independence)</p>
+<ol style="list-style-type: decimal">
 <li>The observations should be independent.</li>
-<li>The expected counts for each cell should be at least five.</li>
-<li><p>The degrees of freedom should be at least two (if not, use methods for evaluating proportions).</p></li>
+<li>The expected counts for each cell should be at least five/ten.</li>
+<li>The degrees of freedom should be at least two (if not, use methods for evaluating proportions).</li>
+</ol></li>
 <li><p>Describe how to use the chi-squared table to obtain a <span class="math inline">\(p\!~\text{-value}\)</span>.</p></li>
-<li><p>When evaluating the independence of two categorical variables, where at least one has more than two levels, use a chi-squared test of independence.</p></li>
-</ol>
+<li><p>When evaluating the independence of two categorical variables, where at least one has more than two levels, use a chi-squared test of independence.</p>
 <ul>
 <li><p><span class="math inline">\(H_0:\)</span> The two variables are independent.</p></li>
 <li><p><span class="math inline">\(H_A:\)</span> The two variables are dependent.</p></li>
-</ul>
-<ol start="9" style="list-style-type: decimal">
-<li>Calculate expected counts in two-way tables as</li>
+</ul></li>
+<li><p>Calculate expected counts in two-way tables as</p></li>
 </ol>
 <p><span class="math display">\[E =\frac{\text{row total}\times\text{column total}}{\text{grand total}}\]</span></p>
 <ol start="10" style="list-style-type: decimal">
 <li><p>Calculate the degrees of freedom for chi-squared test of independence as <span class="math inline">\(df=(R-1)\times(C-1)\)</span>, where <span class="math inline">\(R\)</span> is the number of rows in a two-way table, and <span class="math inline">\(C\)</span> is the number of columns.</p></li>
 <li><p>Note that there is no such thing as a chi-squared confidence interval for proportions.</p></li>
-<li><p>Use simulation methods when sample size conditions are not met for inference for categorical variables.</p></li>
-</ol>
+<li><p>Use simulation methods when sample size conditions are not met for inference for categorical variables.</p>
 <ul>
 <li>Note that the <span class="math inline">\(t\)</span>-distribution is only appropriate to use for means. When the sample size is not sufficiently large and the parameter of interest is a proportion or a difference between two proportions, we need to use simulation.</li>
-</ul>
-<ol start="13" style="list-style-type: decimal">
-<li>In hypothesis testing</li>
-</ol>
+</ul></li>
+<li><p>In hypothesis testing</p>
 <ul>
-<li>for one categorical variable, generate simulated samples based on the null hypothesis. Next, calculate the number of samples that are at least as extreme as the observed data.</li>
-<li>for two categorical variables, use a randomization test.</li>
-</ul>
-<ol start="14" style="list-style-type: decimal">
-<li>Use bootstrap methods for confidence intervals for categorical variables with at most two levels.</li>
+<li><p>for one categorical variable, generate simulated samples based on the null hypothesis. Next, calculate the number of samples that are at least as extreme as the observed data.</p></li>
+<li><p>for two categorical variables, use a randomization test.</p></li>
+</ul></li>
+<li><p>Use bootstrap methods for confidence intervals for categorical variables with at most two levels.</p></li>
 </ol>
 <div class="rmdexercise">
 <p>
@@ -1384,16 +1335,18 @@ End of chapter exercises in Chapter 6 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-12-nov-1-3" class="section level2 unnumbered">
-<h2>Week 12: (Nov 1, 3)</h2>
+<div id="week-10-mar-28-30" class="section level2 unnumbered">
+<h2>Week 10: (Mar 28, 30)</h2>
 <ul>
-<li>Complete the <code>Project2Template.Rmd</code> project found in your <a href="https://github.com/STAT-ATA-ASU/StatsWithRProjects">StatsWithRProjects</a> forked repository. Submit your compiled <code>*html</code> file no later than 5:00 p.m., November 4, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2246">CrowdGrader</a>. Make sure you commit and push your final product to your private repository.</li>
+<li>Complete the <code>Project2Template.Rmd</code> project found in your <a href="https://github.com/STAT-ATA-ASU/StatsWithRProjects">StatsWithRProjects</a> forked repository. Submit your compiled <code>*html</code> file no later than 5:00 p.m., March 31, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2737">CrowdGrader</a>. Make sure you commit and push your final product to your private repository.</li>
 </ul>
+<hr />
 </div>
-<div id="week-13-nov-8-10" class="section level2 unnumbered">
-<h2>Week 13: (Nov 8, 10)</h2>
+<div id="week-11-apr-4-6" class="section level2 unnumbered">
+<h2>Week 11: (Apr 4, 6)</h2>
 <ul>
 <li><p>Watch all videos for week one of <a href="https://www.coursera.org/learn/linear-regression-model/home/welcome"><em>Linear Regression and Modeling</em></a>.</p></li>
 <li><p>Read sections 7.1-7.2 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
@@ -1409,48 +1362,42 @@ End of chapter exercises in Chapter 6 of <a href="https://www.openintro.org/stat
 </ol>
 <p><span class="math display">\[y = \beta_0 + \beta_1 x + \varepsilon,\]</span></p>
 <p>where <span class="math inline">\(\beta_0\)</span> is the intercept, <span class="math inline">\(\beta_1\)</span> is the slope, and <span class="math inline">\(\varepsilon\)</span> is random error.</p>
-<ul>
-<li>Note that the point estimates (estimated from observed data) for <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> are <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span>, respectively.</li>
-</ul>
+<p><em>Note that the point estimates (estimated from observed data) for <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> are <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span>, respectively.</em></p>
 <ol start="3" style="list-style-type: decimal">
-<li>When describing the association between two numerical variables, evaluate</li>
-</ol>
+<li><p>When describing the association between two numerical variables, evaluate</p>
 <ul>
-<li>direction: positive <span class="math inline">\((x\uparrow,y\uparrow)\)</span>, negative <span class="math inline">\((x\downarrow,y\uparrow)\)</span></li>
-<li>form: linear or not</li>
-<li>strength: determined by the scatter around the underlying relationship</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>Define correlation as the linear association between two numerical variables.</li>
-</ol>
+<li><p>direction: positive <span class="math inline">\((x\uparrow,y\uparrow)\)</span>, negative <span class="math inline">\((x\downarrow,y\uparrow)\)</span></p></li>
+<li><p>form: linear or not</p></li>
+<li><p>strength: determined by the scatter around the underlying relationship</p></li>
+</ul></li>
+<li><p>Define correlation as the linear association between two numerical variables.</p>
 <ul>
 <li>Note that a relationship that is nonlinear is simply called an association.</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Note that the correlation coefficient (<span class="math inline">\(r\)</span>, also called Pearson’s <span class="math inline">\(r\)</span>) has the following properties:</li>
-</ol>
+</ul></li>
+<li><p>Note that the correlation coefficient (<span class="math inline">\(r\)</span>, also called Pearson’s <span class="math inline">\(r\)</span>) has the following properties:</p>
 <ul>
-<li>The magnitude (absolute value) of the correlation coefficient measures the strength of the linear association between two numerical variables.</li>
-<li>The sign of the correlation coefficient indicates the direction of association.</li>
+<li><p>The magnitude (absolute value) of the correlation coefficient measures the strength of the linear association between two numerical variables.</p></li>
+<li><p>The sign of the correlation coefficient indicates the direction of association.</p></li>
 <li><p>The correlation coefficient is always between -1 and 1.</p></li>
 <li><span class="math inline">\(r= -1\)</span> indicates perfect negative linear association.</li>
 <li><span class="math inline">\(r= +1\)</span> indicates perfect positive linear association.</li>
 <li><p><span class="math inline">\(r=0\)</span> indicates no linear relationship.</p></li>
-<li>The correlation coefficient is unit-less.</li>
-<li>Since the correlation coefficient is unit-less, it is not affected by changes in the center or scale of either variable (such as unit conversions).</li>
-<li>The correlation of <span class="math inline">\(X\)</span> with <span class="math inline">\(Y\)</span> is the same as the correlation of <span class="math inline">\(Y\)</span> with <span class="math inline">\(X\)</span>.</li>
+<li><p>The correlation coefficient is unit-less.</p></li>
+<li><p>Since the correlation coefficient is unit-less, it is not affected by changes in the center or scale of either variable (such as unit conversions).</p></li>
+<li><p>The correlation of <span class="math inline">\(X\)</span> with <span class="math inline">\(Y\)</span> is the same as the correlation of <span class="math inline">\(Y\)</span> with <span class="math inline">\(X\)</span>.</p></li>
 <li><p>The correlation coefficient is sensitive to outliers.</p></li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
+</ul></li>
 <li><p>Recall that correlation does not imply causation.</p></li>
 <li><p>Define residual (<span class="math inline">\(e\)</span>) as the difference between the observed (<span class="math inline">\(y\)</span>) and predicted (<span class="math inline">\(\hat{y}\)</span>) values of the response variable.</p></li>
 </ol>
 <p><span class="math display">\[e_i = y_i - \hat{y}_i\]</span></p>
 <ol start="8" style="list-style-type: decimal">
-<li><p>Define the least squares line as the line that minimizes the sum of the squared residuals. Recognize if the conditions for using least squares:</p></li>
+<li><p>Define the least squares line as the line that minimizes the sum of the squared residuals. Recognize if the conditions for using least squares:</p>
+<ol style="list-style-type: decimal">
 <li>linearity</li>
 <li>nearly normal residuals</li>
-<li><p>constant variability</p></li>
+<li>constant variability</li>
+</ol></li>
 </ol>
 <p>have been satisfied.</p>
 <ol start="9" style="list-style-type: decimal">
@@ -1460,14 +1407,12 @@ End of chapter exercises in Chapter 6 of <a href="https://www.openintro.org/stat
 <p><span class="math display">\[b_1 = r \frac{s_y}{s_x},\]</span></p>
 <p>where <span class="math inline">\(r\)</span> is the correlation coefficient, <span class="math inline">\(s_y\)</span> is the standard deviation of the response variable, and <span class="math inline">\(s_x\)</span> is the standard deviation of the explanatory variable.</p>
 <ol start="11" style="list-style-type: decimal">
-<li>Interpret the slope as</li>
-</ol>
+<li><p>Interpret the slope as</p>
 <ul>
-<li>When <span class="math inline">\(x\)</span> is numerical: “For each unit increase in <span class="math inline">\(x\)</span>, we would expect y to be lower/higher on average by <span class="math inline">\(|b_1|\)</span> units.”</li>
-<li>When <span class="math inline">\(x\)</span> is categorical: “The value of the response variable is predicted to be <span class="math inline">\(|b_1|\)</span> units higher/lower between the baseline level and the other level of the explanatory variable.”</li>
-<li>Note that whether the response variable increases or decreases is determined by the sign of <span class="math inline">\(b_1\)</span>.</li>
-</ul>
-<ol start="12" style="list-style-type: decimal">
+<li><p>When <span class="math inline">\(x\)</span> is numerical: “For each unit increase in <span class="math inline">\(x\)</span>, we would expect y to be lower/higher on average by <span class="math inline">\(|b_1|\)</span> units.”</p></li>
+<li><p>When <span class="math inline">\(x\)</span> is categorical: “The value of the response variable is predicted to be <span class="math inline">\(|b_1|\)</span> units higher/lower between the baseline level and the other level of the explanatory variable.”</p></li>
+<li><p>Note that whether the response variable increases or decreases is determined by the sign of <span class="math inline">\(b_1\)</span>.</p></li>
+</ul></li>
 <li><p>Note that the least squares line always passes through the average of the response and explanatory variables <span class="math inline">\((\bar{x}, \bar{y}).\)</span></p></li>
 <li><p>Use the above property to calculate the estimate for the intercept <span class="math inline">\((b_0)\)</span> as</p></li>
 </ol>
@@ -1477,30 +1422,27 @@ b_0 = \bar{y} - b_1\bar{x},
 \end{equation}\]</span>
 <p>where <span class="math inline">\(b_1\)</span> is the slope, <span class="math inline">\(\bar{y}\)</span> is the average of the response variable, and <span class="math inline">\(\bar{x}\)</span> is the average of explanatory variable.</p>
 <ol start="14" style="list-style-type: decimal">
-<li>Interpret the intercept as</li>
-</ol>
+<li><p>Interpret the intercept as</p>
 <ul>
-<li>“When <span class="math inline">\(x=0\)</span>, we would expect <span class="math inline">\(y\)</span> to equal, on average, <span class="math inline">\(b_0\)</span>”—when <span class="math inline">\(x\)</span> is numerical.</li>
-<li>“The expected average value of the response variable for the reference level of the explanatory variable is <span class="math inline">\(b_0\)</span>”—when <span class="math inline">\(x\)</span> is categorical.</li>
-</ul>
+<li><p>“When <span class="math inline">\(x=0\)</span>, we would expect <span class="math inline">\(y\)</span> to equal, on average, <span class="math inline">\(b_0\)</span>”—when <span class="math inline">\(x\)</span> is numerical.</p></li>
+<li><p>“The expected average value of the response variable for the reference level of the explanatory variable is <span class="math inline">\(b_0\)</span>”—when <span class="math inline">\(x\)</span> is categorical.</p></li>
+</ul></li>
+</ol>
 </div>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-section-7.2" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 7.2</h4>
 <ol style="list-style-type: decimal">
-<li>Predict the value of the response variable for a given value of the explanatory variable, <span class="math inline">\(x^*\)</span>, by plugging <span class="math inline">\(x^*\)</span> into the linear model:</li>
-</ol>
-<p><span class="math display">\[\hat{y} = b_0 + b_1 x^*\]</span></p>
+<li>Predict the value of the response variable for a given value of the explanatory variable, <span class="math inline">\(x^*\)</span>, by plugging <span class="math inline">\(x^*\)</span> into the linear model: <span class="math inline">\(\hat{y} = b_0 + b_1 x^*\)</span>
 <ul>
 <li>Only predict for values of <span class="math inline">\(x^*\)</span> that are in the range of the observed data.</li>
 <li>Do not extrapolate beyond the range of the data unless you are confident that the linear pattern continues.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Define <span class="math inline">\(R^2\)</span> as the percentage of the variability in the response variable explained by changes in the explanatory variable.</li>
-</ol>
+</ul></li>
+<li><p>Define <span class="math inline">\(R^2\)</span> as the percentage of the variability in the response variable explained by changes in the explanatory variable.</p>
 <ul>
-<li>For a good model, we would like this number to be as close to 100% as possible.</li>
-<li><span class="math inline">\(R^2\)</span> is calculated as the square of the correlation coefficient.</li>
-</ul>
+<li><p>For a good model, we would like this number to be as close to 100% as possible.</p></li>
+<li><p><span class="math inline">\(R^2\)</span> is calculated as the square of the correlation coefficient.</p></li>
+</ul></li>
+</ol>
 <div class="rmdexercise">
 <p>
 Test yourself:
@@ -1600,52 +1542,45 @@ End of chapter exercises in Chapter 7 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-14-nov-15-17" class="section level2 unnumbered">
-<h2>Week 14: (Nov 15, 17)</h2>
+<div id="week-12-apr-11-13" class="section level2 unnumbered">
+<h2>Week 12: (Apr 11, 13)</h2>
 <ul>
 <li><p>Watch all videos for week two of <a href="https://www.coursera.org/learn/linear-regression-model/home/welcome"><em>Linear Regression and Modeling</em></a>.</p></li>
 <li><p>Read sections 7.3-7.4 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Read chapter 15 of <a href="https://alanarnholt.github.io/PDS-Bookdown2/"><em>PDS</em></a>.</p></li>
 <li><p>Review chapter 8 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>simple_regression_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., November 18, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2243">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>simple_regression_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., April 14, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2738">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-sections-7.3-7.4" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Sections 7.3-7.4</h4>
 <ol style="list-style-type: decimal">
 <li><p>Define a leverage point as a point that lies away from the center of the data in the horizontal direction.</p></li>
-<li><p>Define an influential point as a point that influences (changes) the slope of the regression line.</p></li>
-</ol>
+<li><p>Define an influential point as a point that influences (changes) the slope of the regression line.</p>
 <ul>
 <li>An influential point is usually a leverage point that is removed from the trajectory of the rest of the data.</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
+</ul></li>
 <li><p>Do not remove outliers from an analysis without good reason.</p></li>
 <li><p>Be cautious about using a categorical explanatory variable when one of the levels has very few observations as these may act as influential points.</p></li>
 <li><p>Determine whether an explanatory variable is a significant predictor for the response variable using the <span class="math inline">\(t\!~\text{-test}\)</span> and the associated <span class="math inline">\(p\!~\text{-value}\)</span> in the regression output.</p></li>
-<li><p>When testing for the significance of the predictor the null hypothesis <span class="math inline">\(H_0:\beta_1=0\)</span>. Recognize that standard software output returns a <span class="math inline">\(p\!~\text{-value}\)</span> for a two-sided alternative hypothesis.</p></li>
-</ol>
+<li><p>When testing for the significance of the predictor the null hypothesis <span class="math inline">\(H_0:\beta_1=0\)</span>. Recognize that standard software output returns a <span class="math inline">\(p\!~\text{-value}\)</span> for a two-sided alternative hypothesis.</p>
 <ul>
 <li>Note that <span class="math inline">\(\beta_1=0\)</span> means the regression line is horizontal, suggesting there is no relationship between the explanatory and response variable.</li>
-</ul>
-<ol start="7" style="list-style-type: decimal">
-<li>Calculate the <span class="math inline">\(T\!~\text{-score}\)</span> for the hypothesis test as</li>
+</ul></li>
+<li><p>Calculate the <span class="math inline">\(T\!~\text{-score}\)</span> for the hypothesis test as</p></li>
 </ol>
 <p><span class="math display">\[T_{df} = \frac{b_1 - \text{null value}}{SE_{b_1}}
-\text{ with } df = n - 2\]</span>.</p>
-<ul>
-<li>Note that the <span class="math inline">\(T\!~\text{-score}\)</span> has <span class="math inline">\(n-2\)</span> degrees of freedom since we lose one degree of freedom for each parameter we estimate. In simple linear regression, we estimate the intercept and the slope.</li>
-</ul>
+\text{ with } df = n - 2.\]</span></p>
+<p><em>Note that the <span class="math inline">\(T\!~\text{-score}\)</span> has <span class="math inline">\(n-2\)</span> degrees of freedom since we lose one degree of freedom for each parameter we estimate. In simple linear regression, we estimate the intercept and the slope.</em></p>
 <ol start="8" style="list-style-type: decimal">
 <li><p>Note that a hypothesis test for the intercept is often irrelevant since it is usually out of the range of the data.</p></li>
 <li><p>Calculate a confidence interval for the slope as</p></li>
 </ol>
 <p><span class="math display">\[b_1 \pm t_{1- \alpha/2, df}\cdot SE_{b_1}\]</span></p>
 <p>where <span class="math inline">\(df=n-2\)</span> and <span class="math inline">\(t_{1- \alpha/2, df}\)</span> is the critical score associated with the given confidence level at the desired degrees of freedom.</p>
-<ul>
-<li>Note that the standard error of the slope estimate <span class="math inline">\(SE_{b_1}\)</span> can be found on the regression output.</li>
-</ul>
+<p><em>Note that the standard error of the slope estimate <span class="math inline">\(SE_{b_1}\)</span> can be found on the regression output.</em></p>
 <div class="rmdexercise">
 <p>
 Test yourself:
@@ -1753,15 +1688,16 @@ End of chapter exercises in Chapter 7 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
 </div>
-<div id="week-15-nov-22-29no-class-23-25-thanksgiving" class="section level2 unnumbered">
-<h2>Week 15: (Nov 22, 29—No class 23-25 Thanksgiving)</h2>
+<div id="week-13-apr-18-no-class-20-r-25-t" class="section level2 unnumbered">
+<h2>Week 13: (Apr 18 (No class), 20 R, 25 T)</h2>
 <ul>
 <li><p>Watch all videos for week three of <a href="https://www.coursera.org/learn/linear-regression-model/home/welcome"><em>Linear Regression and Modeling</em></a>.</p></li>
 <li><p>Read sections 8.1-8.3 of <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a>.</p></li>
 <li><p>Complete chapter 9 of <a href="https://www.datacamp.com/courses/statistical-inference-and-data-analysis"><em>Data Analysis and Statistical Inference</em></a></p></li>
-<li><p>Complete the <code>multiple_regression_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., November 30, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2244">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
+<li><p>Complete the <code>multiple_regression_ASU2.Rmd</code> lab, and submit your compiled <code>*html</code> file no later than 5:00 p.m., April 26, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2739">CrowdGrader</a>. Make sure you commit and push your your final product to your private repository.</p></li>
 </ul>
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-sections-8.1-8.2" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Sections 8.1-8.2</h4>
@@ -1776,8 +1712,7 @@ End of chapter exercises in Chapter 7 of <a href="https://www.openintro.org/stat
 <li><p>Define collinearity as a high correlation between two independent variables such that the two variables contribute redundant information to the model, which is something we want to avoid in multiple linear regression.</p></li>
 <li><p>Note that <span class="math inline">\(R^2\)</span> will increase with each explanatory variable added to the model, regardless of whether or not the added variable is a meaningful predictor of the response variable. We use adjusted <span class="math inline">\(R^2\)</span>, which applies a penalty for the number of predictors included in the model, to assess the strength of a multiple linear regression model.</p></li>
 </ol>
-<p><span class="math display">\[R^2_{adj}= 1 - \frac{SSE/(n-k-1)}{SST/(n-1)}\]</span></p>
-<p>where <span class="math inline">\(n\)</span> is the number of cases and <span class="math inline">\(k\)</span> is the number of predictors. Note that <span class="math inline">\(R^2_{adj}\)</span> will only increase if the added variable has a meaningful contribution to the amount of explained variability in <span class="math inline">\(y\)</span>, i.e. if the gains from adding the variable exceed the penalty.</p>
+<p><span class="math display">\[R^2_{adj}= 1 - \frac{SSE/(n-k-1)}{SST/(n-1)}\]</span> where <span class="math inline">\(n\)</span> is the number of cases and <span class="math inline">\(k\)</span> is the number of predictors. Note that <span class="math inline">\(R^2_{adj}\)</span> will only increase if the added variable has a meaningful contribution to the amount of explained variability in <span class="math inline">\(y\)</span>, i.e. if the gains from adding the variable exceed the penalty.</p>
 <ol start="6" style="list-style-type: decimal">
 <li><p>Define model selection as identifying the best model for predicting a given response variable.</p></li>
 <li><p>Note that we usually prefer simpler (parsimonious) models over more complicated ones.</p></li>
@@ -1787,66 +1722,66 @@ End of chapter exercises in Chapter 7 of <a href="https://www.openintro.org/stat
 <div id="learning-objectives-for-openintro-statistics-3rd-edition-section-8.3" class="section level4 unnumbered">
 <h4>Learning Objectives for <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><em>OpenIntro Statistics, 3rd Edition</em></a> Section 8.3</h4>
 <ol style="list-style-type: decimal">
-<li>The significance of the model as a whole is assessed using an <span class="math inline">\(F\)</span>-test where:</li>
-</ol>
+<li><p>The significance of the model as a whole is assessed using an <span class="math inline">\(F\)</span>-test where:</p>
 <ul>
 <li><span class="math inline">\(H_0:\beta_1=\beta_2=\cdots=\beta_k\)</span>,</li>
 <li><span class="math inline">\(H_A: \text{at least one } \beta_i \ne 0\)</span>,</li>
 <li>there are <span class="math inline">\(df = n-k-1\)</span> degrees of freedom, and</li>
 <li>the observed <span class="math inline">\(F\)</span> value is usually reported at the bottom of the regression output.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Note that the <span class="math inline">\(p\!~\text{-values}\)</span> associated with each predictor are conditional on other variables being included in the model, so they can be used to assess if a given predictor is significant, given that all others are in the model.</li>
-</ol>
+</ul></li>
+<li><p>Note that the <span class="math inline">\(p\!~\text{-values}\)</span> associated with each predictor are conditional on other variables being included in the model, so they can be used to assess if a given predictor is significant, given that all others are in the model.</p>
 <ul>
-<li><span class="math inline">\(H_0:\beta_1=0\)</span>, given all other variables are included in the model</li>
-<li><span class="math inline">\(H_A:\beta_1\ne0\)</span>, given all other variables are included in the model</li>
-<li>These <span class="math inline">\(p\!~\text{-values}\)</span> are calculated based on a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(n-k-1\)</span> degrees of freedom</li>
-<li>The same degrees of freedom can be used to construct a confidence interval for the slope parameter of each predictor:</li>
-</ul>
+<li><p><span class="math inline">\(H_0:\beta_1=0\)</span>, given all other variables are included in the model</p></li>
+<li><p><span class="math inline">\(H_A:\beta_1\ne0\)</span>, given all other variables are included in the model</p></li>
+<li><p>These <span class="math inline">\(p\!~\text{-values}\)</span> are calculated based on a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(n-k-1\)</span> degrees of freedom</p></li>
+<li><p>The same degrees of freedom can be used to construct a confidence interval for the slope parameter of each predictor:</p></li>
+</ul></li>
+</ol>
 <p><span class="math display">\[b_i \pm t_{1-\alpha/2, n-k-1}\cdot SE_{b_i}\]</span></p>
 <ol start="3" style="list-style-type: decimal">
 <li><p>Stepwise model selection (backward or forward) can be done based on <span class="math inline">\(p\!~\text{-values}\)</span> (drop variables that are not significant) or based on adjusted <span class="math inline">\(R^2\)</span> (choose the model with highest adjusted <span class="math inline">\(R^2\)</span>).</p></li>
-<li><p>The general idea behind backward-selection is to start with the full model and eliminate one variable at a time until the ideal model is reached.</p></li>
-</ol>
-<ul>
+<li><p>The general idea behind backward-selection is to start with the full model and eliminate one variable at a time until the ideal model is reached.</p>
+<ol style="list-style-type: decimal">
 <li><span class="math inline">\(p\!~\text{-value}\)</span> method:</li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>Start with the full model.</li>
-<li>Drop the variable with the highest <span class="math inline">\(p\!~\text{-value}\)</span> and refit the model.</li>
-<li>Repeat until all remaining variables are significant.</li>
 </ol>
 <ul>
-<li>adjusted <span class="math inline">\(R^2\)</span> method:</li>
+<li><p>Start with the full model.</p></li>
+<li><p>Drop the variable with the highest <span class="math inline">\(p\!~\text{-value}\)</span> and refit the model.</p></li>
+<li><p>Repeat until all remaining variables are significant.</p></li>
 </ul>
-<ol style="list-style-type: decimal">
+<ol start="2" style="list-style-type: decimal">
+<li>adjusted <span class="math inline">\(R^2\)</span> method:</li>
+</ol>
+<ul>
 <li>Start with the full model.</li>
 <li>Refit all possible models omitting one variable at a time. Choose the model with the highest adjusted <span class="math inline">\(R^2\)</span>.</li>
-<li><p>Repeat until maximum possible adjusted <span class="math inline">\(R^2\)</span> is reached.</p></li>
-<li><p>The general idea behind forward-selection is to start with only one variable and add one variable at a time until the ideal model is obtained.</p></li>
+<li>Repeat until maximum possible adjusted <span class="math inline">\(R^2\)</span> is reached.</li>
+</ul></li>
+<li><p>The general idea behind forward-selection is to start with only one variable and add one variable at a time until the ideal model is obtained.</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(p\!~\text{-value}\)</span> method:</li>
 </ol>
 <ul>
-<li><span class="math inline">\(p\!~\text{-value}\)</span> method:</li>
-</ul>
-<ol style="list-style-type: decimal">
 <li><p>Try all possible simple linear regression models predicting <span class="math inline">\(y\)</span> using one explanatory variable at a time. Choose the model where the explanatory variable of choice has the lowest <span class="math inline">\(p\!~\text{-value}\)</span>.</p></li>
 <li><p>Try all possible models adding one more explanatory variable at a time. Choose the model where the added explanatory variable has the lowest <span class="math inline">\(p\!~\text{-value}\)</span>.</p></li>
 <li><p>Repeat until all added variables are significant.</p></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>adjusted <span class="math inline">\(R^2\)</span> method:</li>
 </ol>
 <ul>
-<li>adjusted <span class="math inline">\(R^2\)</span> method:</li>
-</ul>
-<ol style="list-style-type: decimal">
 <li>Try all possible simple linear regression models predicting <span class="math inline">\(y\)</span> using one explanatory variable at a time. Choose the model with the highest adjusted <span class="math inline">\(R^2\)</span>.</li>
 <li>Try all possible models adding one more explanatory variable at a time. Choose the model with the highest adjusted <span class="math inline">\(R^2\)</span>.</li>
-<li><p>Repeat until maximum possible adjusted <span class="math inline">\(R^2\)</span> is reached.</p></li>
+<li>Repeat until maximum possible adjusted <span class="math inline">\(R^2\)</span> is reached.</li>
+</ul></li>
 <li><p>The adjusted <span class="math inline">\(R^2\)</span> method is more computationally intensive; but, it is more reliable, since it does not depend on an arbitrary significance level.</p></li>
-<li><p>List the conditions for multiple linear regression as</p></li>
+<li><p>List the conditions for multiple linear regression as</p>
+<ol style="list-style-type: decimal">
 <li>linear relationship between each (numerical) explanatory variable and the response—checked using scatterplots of <span class="math inline">\(y\)</span> vs. each <span class="math inline">\(x\)</span>, and residuals plots of residuals vs. each <span class="math inline">\(x\)</span></li>
 <li>nearly normal residuals with mean 0—checked using a normal probability plot and histogram of residuals</li>
 <li>constant variability of residuals—checked using residuals plots of residuals vs. <span class="math inline">\(\hat{y}\)</span>, and residuals vs. each <span class="math inline">\(x\)</span></li>
-<li><p>independence of residuals (and hence observations)—checked using a scatterplot of residuals vs. order of data collection (will reveal non-independence if data have time series structure)</p></li>
+<li>independence of residuals (and hence observations)—checked using a scatterplot of residuals vs. order of data collection (will reveal non-independence if data have time series structure)</li>
+</ol></li>
 <li><p>Note that no model is perfect, but even imperfect models can be useful.</p></li>
 </ol>
 <div class="rmdexercise">
@@ -1918,13 +1853,17 @@ End of chapter exercises in Chapter 8 of <a href="https://www.openintro.org/stat
 </li>
 </ul>
 </div>
+<hr />
 </div>
+</div>
+<div id="week-14-apr-27-r-may-2-t" class="section level2 unnumbered">
+<h2>Week 14: (Apr 27 R, May 2 T)</h2>
 <div id="final-exam" class="section level3 unnumbered">
 <h3>Final Exam</h3>
 <div class="rmdnote">
 <ul>
 <li>
-Complete the <code>Project3Template.Rmd</code> project found in your <a href="https://github.com/STAT-ATA-ASU/StatsWithRProjects">StatsWithRProjects</a> forked repository. Submit your compiled <code>*html</code> file no later than 5:00 p.m., December 7, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2247">CrowdGrader</a>. Make sure you commit and push your final product to your private repository.
+Complete the <code>Project3Template.Rmd</code> project found in your <a href="https://github.com/STAT-ATA-ASU/StatsWithRProjects">StatsWithRProjects</a> forked repository. Submit your compiled <code>*html</code> file no later than 5:00 p.m., May 11, to <a href="https://www.crowdgrader.org/crowdgrader/venues/view_venue/2740">CrowdGrader</a>. Make sure you commit and push your final product to your private repository.
 </li>
 </ul>
 </div>
