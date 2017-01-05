@@ -17,7 +17,7 @@ MathJax.Hub.Config({
 
 ### General Notes: {-}
 
-```{block, note-text, type='rmdnote'}
+```{block2, note-text, type='rmdnote'}
 1.  Most due dates are 5 p.m. Friday for [CrowdGrader](https://www.crowdgrader.org/) assignments.
 
 2.  Most [CrowdGrader](https://www.crowdgrader.org/) peer reviews will be due by 11 p.m. on Tuesdays.
@@ -166,7 +166,7 @@ Stratified sampling: First divide the population into homogeneous strata (subjec
 
   9. Identify if single or double blinding has been used in a study.
 
-```{block, test2, type='rmdexercise'}
+```{block2, test2, type='rmdexercise'}
 Test yourself:
 
 1. Describe when a study’s results can be generalized to the population at large and when causation can be inferred.
@@ -230,7 +230,7 @@ Test yourself:
 
   7. Recognize when transformations (e.g. log) can make the distribution of data more symmetric and easier to model.
 
-```{block, test3, type='rmdexercise'}
+```{block2, test3, type='rmdexercise'}
 Test yourself:
 
 1. Describe what is meant by robust statistics and when they are used.
@@ -245,7 +245,7 @@ Test yourself:
 
   3. Use side-by-side box plots for assessing the relationship between a numerical and a categorical variable.
 
-```{block, test4, type='rmdexercise'}
+```{block2, test4, type='rmdexercise'}
 Test yourself:
 
 1. Interpret the plot in Figure 1.40 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os)  (page 39).
@@ -323,7 +323,7 @@ Test yourself:
     + if $A$ and $B$ are independent, $P(A \cap B) = P(A) \times P(B)$
     + If $A$ and $B$ are dependent, $P(A \cap B) = P(A|B) \times P(B)$
 
-```{block, test5, type='rmdexercise'}
+```{block2, test5, type='rmdexercise'}
 Test yourself:
 
 1. What is the probability of getting a head on the 6th coin flip if in the first 5 flips the coin landed on a head each time?
@@ -339,7 +339,7 @@ Test yourself:
 
   2. Construct tree diagrams to calculate conditional probabilities and probabilities of the intersection of non-independent events using Bayes’ theorem: $P(A|B)=\frac{P(A \cap B)}{P(B)}.$
 
-```{block, test6, type='rmdexercise'}
+```{block2, test6, type='rmdexercise'}
 
 Test yourself: 50% of students in a class are social science majors and the rest are not. 70% of the social science students, and 40% of the non-social science students are in a biology class. Create a contingency table and a tree diagram summarizing these probabilities. Calculate the percentage of students in this class who are in a biology class.
 ```
@@ -385,7 +385,7 @@ Test yourself: 50% of students in a class are social science majors and the rest
 
 4. Assess whether or not a distribution is nearly normal using either the 68-95-99.7% rule or graphical methods such as a normal probability plot.
 
-```{block, test7, type='rmdexercise'}
+```{block2, test7, type='rmdexercise'}
 Test yourself: True/False: In a right skewed distribution the $z\!~\text{-score}$ of the median is positive.
 ```
 
@@ -407,7 +407,7 @@ Test yourself: True/False: In a right skewed distribution the $z\!~\text{-score}
 
   5. When number of trials is sufficiently large ($np \ge 10$ and $n(1-p) \ge 10$), use the normal approximation to calculate binomial probabilities. Explain why this approach works.
 
-```{block, test8, type='rmdexercise'}
+```{block2, test8, type='rmdexercise'}
 Test yourself:
 
 1. True/False: We can use the binomial distribution to determine the probability that in 10 rolls of a die, the first 6 occurs on the 8th roll.
@@ -492,7 +492,7 @@ Notice that this corresponds to half the width of the confidence interval.
 
 
 
-```{block, test9, type='rmdexercise'}
+```{block2, test9, type='rmdexercise'}
 Test yourself:
 
 1. For each of the following situations, state whether the variable is categorical or numerical and whether the parameter of interest is a mean or a proportion.
@@ -616,7 +616,7 @@ Use a smaller $\alpha$ if a Type I error is more critical than a Type II error. 
 11. Define power as the probability of correctly rejecting the null hypothesis (the complement of a Type II error).
 
 
-```{block, test10, type='rmdexercise'}
+```{block2, test10, type='rmdexercise'}
 Test yourself:
 
 1. List the errors in the following hypotheses: $H_0:\bar{x} \gt 20$ versus $H_A:\bar{x} \ge 25$
@@ -769,7 +769,7 @@ Use graphical diagnostics to check if these conditions are met.
 
 10. Recognize that when the bootstrap distribution is extremely skewed and sparse, the bootstrap confidence interval may not be reliable.
   
-```{block, test11, type='rmdexercise'}
+```{block2, test11, type='rmdexercise'}
 Test yourself:
 
 1. What is the $t$-value for a 95% confidence interval for a mean where the sample size is 13?
@@ -935,7 +935,7 @@ $$E =\frac{\text{row total}\times\text{column total}}{\text{grand total}}$$
 
 14. Use bootstrap methods for confidence intervals for categorical variables with at most two levels.
 
-```{block, test12, type='rmdexercise'}
+```{block2, test12, type='rmdexercise'}
 Test yourself:
 
 1. Suppose 10% of ASU students smoke. You collect many random samples of 100 ASU students at a time and calculate a sample proportion of students who smoke $(\hat{p})$ for each sample. What would you expect the distribution of $\hat{p}$ to be? Describe its shape, center, and spread.
@@ -1094,7 +1094,7 @@ where $b_1$ is the slope, $\bar{y}$ is the average of the response variable, and
     + $R^2$ is calculated as the square of the correlation coefficient.
 
 
-```{block, test13, type='rmdexercise'}
+```{block2, test13, type='rmdexercise'}
 Test yourself:
 
 1.  A teaching assistant gives a quiz. There are 10 questions on the quiz and no partial credit is given. After grading the papers, the TA writes down the number of questions each student answered correctly. What is the correlation between the number of questions answered correctly and incorrectly? Hint: Make up some data for number of questions right, calculate number of questions wrong, and plot them against each other.
@@ -1111,7 +1111,7 @@ y <- sort(rnorm(20))
 plot(x, y, xlab = "", ylab = "", col = "lightblue", pch = 19)
 ```
 
-```{block, test14, type='rmdexercise'}
+```{block2, test14, type='rmdexercise'}
 4.  We would not want to fit a least squares line to the data shown in the scatterplot below. Which of the conditions does it appear to violate?
 ```
 
@@ -1123,7 +1123,7 @@ x <- y + rnorm(n, 0, 30)*(1:n)/n
 plot(x, y, xlab = "", ylab = "", col = "lightblue", pch = 19)
 ```
 
-```{block, test15, type='rmdexercise'}
+```{block2, test15, type='rmdexercise'}
 5. Derive the formula for $b_0$ as a function of $b_1$ given the fact that the linear model is $\hat{y}=b_0 + b_1x$ and that the least squares line goes through $(\bar{x}, \bar{y})$.
 
 6. One study on male college students found their average height to be 70 inches with a standard deviation of 2 inches. Their average weight was 140 pounds with a standard deviation of 25 pounds. The correlation between their height and weight was 0.60. Assuming that the two variables are linearly associated, write the linear model for predicting weight from height.
@@ -1202,7 +1202,7 @@ where $df=n-2$ and $t_{1- \alpha/2, df}$ is the critical score associated with t
 *Note that the standard error of the slope estimate $SE_{b_1}$ can be found on the regression output.*
 
 
-```{block, test16, type='rmdexercise'}
+```{block2, test16, type='rmdexercise'}
 Test yourself: 
 
 1. Determine whether each of the three unusual observations (traingles) in the plot below would be primarily considered an outlier, a high leverage point, or an influential point.
@@ -1220,7 +1220,7 @@ points(c(170, 160, 60), c(155, 50, 135), col = c("red", "green", "blue"), pch = 
 mod1 <- lm(y ~ x)
 ```
 
-```{block, test17, type='rmdexercise'}
+```{block2, test17, type='rmdexercise'}
 2. Given the regression output below for predicting $y$ from $x$ where $n=100$, verify the $t$- and $p\!~\text{-values}$. Determine whether $x$ is a significant predictor of $y$, and interpret the $p\!~\text{-value}$ in context.
 ```
 
@@ -1229,7 +1229,7 @@ htmlTable::htmlTable(round(summary(mod1)$coef,4), css.cell = "padding-left: 1em;
 ```
 
 
-```{block, test18, type='rmdexercise'}
+```{block2, test18, type='rmdexercise'}
 3. Calculate a 95% confidence interval for the slope from the output above. 
 ```
 
@@ -1348,7 +1348,7 @@ $$b_i \pm t_{1-\alpha/2, n-k-1}\cdot SE_{b_i}$$
 
 8. Note that no model is perfect, but even imperfect models can be useful.
   
-```{block, test18b, type='rmdexercise'}  
+```{block2, test18b, type='rmdexercise'}  
 Test yourself:
 
 1.  How are multiple linear regression and simple linear regression different?
