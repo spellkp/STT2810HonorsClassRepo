@@ -993,7 +993,7 @@ Test yourself:
 ## Week 10: (Mar 28, 30) {-}
 
 
-*  Complete the `Project2Template.Rmd` project found in your [StatsWithRProjects](https://github.com/STAT-ATA-ASU/StatsWithRProjects) forked repository. Submit your compiled `*html` file no later than 5:00 p.m., March 31, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2737).  Make sure you commit and push your final product to your private repository. 
+*  Complete the `Project2Template.Rmd` project found in the `StatsWithRProjects` folder of your private repository. Submit your compiled `*html` file no later than 5:00 p.m., March 31, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2737).  Make sure you commit and push your final product to your private repository. 
 
 * * *
 
