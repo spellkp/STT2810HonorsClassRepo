@@ -47,9 +47,9 @@ This course introduces students to statistical concepts, applications, and theor
 
 * 54% of the course grade will come from the nine course labs (6% each lab)
 
-* 30% of the course grade will come from the three course projects (10% each project) 
+* 36% of the course grade will come from the three course projects (12% each project) 
 
-* 16% of the course grade will come from the Midterm exam
+* 10% of the course grade will come from class participation
 
 
 If you know you will be absent at any point in the semester for any reason, please let me know beforehand; and make sure to submit your work via [CrowdGrader](http://www.crowdgrader.org/) before the due date.  
