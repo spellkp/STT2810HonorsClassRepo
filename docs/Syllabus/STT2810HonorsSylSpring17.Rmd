@@ -15,7 +15,7 @@ output:
 
 Make an appointment to see me by clicking https://arnholtat.youcanbook.me/.
 
-Course related questions should be addressed with the [piazza account for STT 2810](https://piazza.com/). 
+Course related questions should be addressed with the [piazza account for STT 2810](https://piazza.com/appstate/spring2017/stt2810/home). 
 
 
 **Course Description:**  
@@ -58,7 +58,7 @@ If you know you will be absent at any point in the semester for any reason, plea
 
 **How To Get Unstuck**
 
-Please ask questions on the [STT 2810 piazza account](https://piazza.com/class/). Your classmates may have the same question or may answer your question before I can provide an answer.  Well constructed questions will elicit answers more rapidly than poorly constructed questions.  This [video](https://www.youtube.com/watch?v=ZFaWxxzouCY&list=PLjTlxb-wKvXNSDfcKPFH2gzHGyjpeCZmJ&index=3) provides some background on asking questions.  This stackoverflow thread details how to create a [minimal R reproducible example](http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example/5963610#5963610). Please read [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) by Eric Raymond and Rick Moen and heed their advice.
+Please ask questions on the [STT 2810 piazza account](https://piazza.com/appstate/spring2017/stt2810/home). Your classmates may have the same question or may answer your question before I can provide an answer.  Well constructed questions will elicit answers more rapidly than poorly constructed questions.  This [video](https://www.youtube.com/watch?v=ZFaWxxzouCY&list=PLjTlxb-wKvXNSDfcKPFH2gzHGyjpeCZmJ&index=3) provides some background on asking questions.  This stackoverflow thread details how to create a [minimal R reproducible example](http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example/5963610#5963610). Please read [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) by Eric Raymond and Rick Moen and heed their advice.
 
 **University Policies**
 
