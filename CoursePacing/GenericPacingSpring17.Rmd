@@ -131,7 +131,7 @@ git pull upstream gh-pages
 
 * If there are conflicts, you will need to resolve them before proceeding.
 
-* Create a free account on [DataCamp](https://www.datacamp.com/).  Complete chapter 1 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Create a free account on [DataCamp](https://www.datacamp.com/).  Complete _Introduction to R_  in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `intro_to_r_ASU2.Rmd` lab found in the `StatsWithRLabs` folder of your private repository, and submit your compiled `*html` file no later than 5:00 p.m., January 27, to [CrowdGrader](https://www.crowdgrader.org/crowdgrader/venues/view_venue/2730).  Make sure you commit and push your your final product to your private repository.  Install the `statsr` package by running the following from the R command line:
 
@@ -212,7 +212,7 @@ Test yourself:
 
 * Read Section 3.4 of [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
 
-* Complete chapter 2 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Introduction to Data_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `intro_to_data_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., February 3, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2731).  Make sure you commit and push your your final product to your private repository.
 
@@ -290,7 +290,7 @@ Test yourself:
 
 * Read sections 2.1-2.5 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Complete chapter 3 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Probability_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `probability_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., February 10, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2732).  Make sure you commit and push your your final product to your private repository.
          
@@ -377,9 +377,6 @@ Test yourself: 50% of students in a class are social science majors and the rest
 
 * Read sections 3.1, 3.2, and 3.4 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-
-* Complete chapter 4 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
-
 * Compile and read the `exampleEDA.Rmd` lab.
 
 * Complete your LAB/PAPER using the `bookdown::html_document2` format.  Create a folder named `01_MyInterests` under your `StatsWithRProjects` folder. Store your LAB/PAPER `*Rmd` file in in the `01_MyInterests` folder.  Make sure you commit and push your final product to your private repository no later than 5:00 p.m., Feb 17.  Your LAB/PAPER needs to have at least two graphs with captions, at least two numbered and referenced equations, at least one TABLE with a descriptive caption, and properly formatted References. 
@@ -452,7 +449,7 @@ Test yourself:
 
 * Read sections 4.1-4.2 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Complete chapter 4 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Foundations for Inference: Sampling Distributions_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `sampling_distributions_ASU2.Rmd` lab and submit your compiled `*html` file no later than 5:00 p.m., February 24 to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2733).  Make sure you commit and push your your final product to your private repository.
 
@@ -554,7 +551,7 @@ Test yourself:
 
 * Read sections 4.3-4.6 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Complete chapter 5 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Foundations for Inferece: Confidence Intervals_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `confidence_intervals_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., March 3, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2734).  Make sure you commit and push your your final product to your private repository.
 
@@ -684,7 +681,7 @@ Test yourself:
 
 * Read [_Can A New Drug Reduce the Spread of Schistosomiasis?_](https://alanarnholt.github.io/STT3850/Notes/Parent/Parent.html)---Use *Ctrl f* on the web page to find the appropriate text inside the notes.
 
-* Complete chapter 6 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Inference for Numerical Data_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `inf_for_numerical_data_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., March 10, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2735).  Make sure you commit and push your your final product to your private repository.
 
@@ -839,7 +836,7 @@ Test yourself:
 
 * Read sections 6.1-6.6 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Complete chapter 7 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Inference for Categorical Data_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `inf_for_categorical_data_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., March 24, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2736).  Make sure you commit and push your final product to your private repository.
 
@@ -1004,7 +1001,7 @@ Test yourself:
 
 * Read sections 7.1-7.2 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Complete chapter 8 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Introduction to linear regression_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * No Lab this week!
 
@@ -1180,7 +1177,7 @@ $$\widehat{\text{gpa}}= 3.57 − 0.01 \times \text{premed}$$
 
 * Read sections 7.3-7.4 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Review chapter 8 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Review _Introduction to linear regression_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `simple_regression_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., April 14, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2738).  Make sure you commit and push your your final product to your private repository.
 
@@ -1274,7 +1271,7 @@ htmlTable::htmlTable(round(summary(mod1)$coef,4), css.cell = "padding-left: 1em;
 
 * Read sections 8.1-8.3 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Complete chapter 9 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
+* Complete _Multiple linear regression_ in [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
 * Complete the `multiple_regression_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., April 26, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2739).  Make sure you commit and push your your final product to your private repository.
 
