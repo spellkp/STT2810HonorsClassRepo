@@ -53,7 +53,7 @@ Clarity  | Few errors of grammar and usage; any minor errors do not interfere wi
 
 * Read Chapters 1-2 of [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
 
-* Follow the directions from [Happy Git and GitHub for the useR](https://http://happygitwithr.com/) to [Introduce yourself to Git](http://happygitwithr.com/hello-git.html), [Connect to GitHub](http://happygitwithr.com/push-pull-github.html), and [Cache credentials for HTTPS](http://happygitwithr.com/credential-caching.html). Note: Git, R, and the RStudio IDE have already been installed for you on the RStudio server.  
+* Follow the directions from [Happy Git and GitHub for the useR](http://happygitwithr.com/) to [Introduce yourself to Git](http://happygitwithr.com/hello-git.html), [Connect to GitHub](http://happygitwithr.com/push-pull-github.html), and [Cache credentials for HTTPS](http://happygitwithr.com/credential-caching.html). Note: Git, R, and the RStudio IDE have already been installed for you on the RStudio server.  
 
 * Read the [Git and GitHub](http://r-pkgs.had.co.nz/git.html) chapter from Hadley Wickham's book [R Packages](http://r-pkgs.had.co.nz/)
 
@@ -66,7 +66,7 @@ Watch the following video:
  
 ```{block, week1optional, type='rmdoptional'}
 #### Optional {-}
-* You may want to install [Git](http://git-scm.com/downloads), [R](http://cran.r-project.org), [RStudio](http://www.rstudio.com/products/rstudio/download/), [zotero](https://www.zotero.org), and optionally [$LaTeX$](http://www.ctan.org/starter) on your personal computer. If you do, you will want to follow Jenny Bryan's excellent advice for [installing R and RStudio](http://stat545-ubc.github.io/block000_r-rstudio-install.html) and [installing Git](http://stat545-ubc.github.io/git01_git-install.html).  Jenny's advice is also in chapters 6 and 7 of [Happy Git and GitHub for the useR](http://happygitwithr.com/).  Note: [Git](http://git-scm.com/downloads), [R](http://cran.r-project.org), [RStudio](http://www.rstudio.com/products/rstudio/download/), and [$LaTeX$](http://www.ctan.org/starter) are installed on the [Appstate RStudio](https://mathr.math.appstate.edu/) server.
+* You may want to install [Git](http://git-scm.com/downloads), [R](http://cran.r-project.org), [RStudio](http://www.rstudio.com/products/rstudio/download/), [zotero](https://www.zotero.org), and optionally [$LaTeX$](http://www.ctan.org/starter) on your personal computer. If you do, you will want to follow Jenny Bryan's excellent advice in [Happy Git and GitHub for the useR](http://happygitwithr.com/).  Note: [Git](http://git-scm.com/downloads), [R](http://cran.r-project.org), [RStudio](http://www.rstudio.com/products/rstudio/download/), and [$LaTeX$](http://www.ctan.org/starter) are installed on the [Appstate RStudio](https://mathr.math.appstate.edu/) server.
 
 * Watch the following videos as appropriate:
 
