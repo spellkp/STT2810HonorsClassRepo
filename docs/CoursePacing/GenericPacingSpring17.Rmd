@@ -49,13 +49,15 @@ Clarity  | Few errors of grammar and usage; any minor errors do not interfere wi
 
 * Become familiar with the Appstate [RStudio server](https://mathr.math.appstate.edu/). You will use your Appstate user name and password to log in to the server.  You must be registered in the class to access the server.
 
-** Follow the directions from [Happy Git and GitHub for the useR](http://happygitwithr.com/) to [Introduce yourself to Git](http://happygitwithr.com/hello-git.html), [Connect to GitHub](http://happygitwithr.com/push-pull-github.html), and [Cache credentials for HTTPS](http://happygitwithr.com/credential-caching.html). Note: Git, R, and the RStudio IDE have already been installed for you on the RStudio server.  
+* Follow the directions from [Happy Git and GitHub for the useR](http://happygitwithr.com/) to [Introduce yourself to Git](http://happygitwithr.com/hello-git.html), [Connect to GitHub](http://happygitwithr.com/push-pull-github.html), and [Cache credentials for HTTPS](http://happygitwithr.com/credential-caching.html). Note: Git, R, and the RStudio IDE have already been installed for you on the RStudio server.  
 
 * Read [Getting used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/)
 
 * Read Chapters 1-2 of [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
 
 * Read the [Git and GitHub](http://r-pkgs.had.co.nz/git.html) chapter from Hadley Wickham's book [R Packages](http://r-pkgs.had.co.nz/)
+
+* Follow the directions from [Happy Git and GitHub for the useR](https://http://happygitwithr.com/) to [Introduce yourself to Git](http://happygitwithr.com/hello-git.html), [Connect to GitHub](http://happygitwithr.com/push-pull-github.html), and [Cache credentials for HTTPS](http://happygitwithr.com/credential-caching.html).  
 
 
 Watch the following video:
@@ -217,7 +219,7 @@ Test yourself:
 * Complete the `intro_to_data_ASU2.Rmd` lab, and submit your compiled `*html` file no later than 5:00 p.m., February 3, to [CrowdGrader](		https://www.crowdgrader.org/crowdgrader/venues/view_venue/2731).  Make sure you commit and push your your final product to your private repository.
 
 
-* Integrating [zotero](www.zotero.com) with [RMarkdown](http://rmarkdown.rstudio.com) will be discussed during the first part of the week.  An example document will be stored in this folder.
+* Integrating [zotero](http://www.zotero.com) with [RMarkdown](http://rmarkdown.rstudio.com) will be discussed during the first part of the week.  An example document will be stored in this folder.
 
 * You may find these [videos helpful](https://www.youtube.com/watch?v=dto4gARbsi0&list=PLJBNI3mCp9g0wsSDK111qgimqVF1dwPXO).
 
