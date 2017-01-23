@@ -15,6 +15,13 @@ MathJax.Hub.Config({
 });
 </script>
 
+```{r, label = "SETUP", echo = FALSE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(comment = NA, message = FALSE, warning = FALSE, fig.align = "center")
+library(openintro)
+library(dplyr)
+library(ggplot2)
+```
+
 ### General Notes: {-}
 
 ```{block2, note-text, type='rmdnote'}
@@ -148,6 +155,15 @@ devtools::install_github('alanarnholt/statsr')
 
 2. Define associated variables as variables that show some relationship with one another. Further categorize this relationship as a positive or negative association when possible.
 
+```{r, fig.cap = "Modified Figure 1.8 from OpenIntro"}
+library(ggplot2)
+library(openintro)
+ggplot(data = county, aes(x = poverty, y = fed_spend)) +
+  geom_point(alpha = 0.10, color = "blue") + 
+  theme_bw() + 
+  labs(x = "Poverty Rate (Percent)", y = "Federal Spending Per Capita")
+```
+
 3. Define variables that are not associated as independent.
 
 ```{block, test1, type='rmdexercise'}
@@ -225,7 +241,22 @@ Test yourself:
 
 1. Use scatterplots to display the relationship between two numerical variables, making sure to note the direction (positive or negative), form (linear or non-linear), and strength of the relationship as well as any unusual observations.
 
+```{r, fig.cap = "Modified Figure 1.17 from OpenIntro"}
+ggplot(data = email50, aes(x = num_char, y = line_breaks)) +
+  geom_point(alpha = 0.50, color = "blue") + 
+  theme_bw() + 
+  labs(x = "Number of Characters (in thousands)", y = "Number of Lines")
+```
+
 2. When describing the distribution of a numerical variable, mention its shape, center, and spread, as well as any unusual observations.
+
+```{r, message = FALSE, warning = FALSE}
+library(dplyr)
+ANS <- email50 %>%
+  summarize(MeanChar = mean(num_char),  SDchar = sd(num_char), 
+            MedianChar = median(num_char), IQRchar = IQR(num_char), n = n())
+knitr::kable(ANS, caption = "Summary Statistics")
+```
 
 3. Note that there are three commonly used measures of center and spread:
 
@@ -233,6 +264,13 @@ Test yourself:
     + spread: standard deviation (variability around the mean), range (max-min), and interquartile range (middle 50% of the distribution).
 
   4. Identify the shape of a distribution as unimodal, bimodal, multimodal, or uniform; and if the shape is unimodal, further classify the distribution as symmetric, right skewed, or left skewed.
+  
+```{r, fig.cap = "Modified Figure 1.22 from OpenIntro"}
+ggplot(data = email50, aes(x = num_char)) + 
+  geom_histogram(fill = "lightblue", binwidth = 5, color = "black") +
+  theme_bw() + 
+  labs(x = "Number of Characters (in thousands)", y = "Frequency")
+```
 
   5. Use histograms and box plots to visualize the shape, center, and spread of numerical distributions. Use intensity maps to visualize the spatial distribution of the data.
 
@@ -250,10 +288,39 @@ Test yourself:
 #### Learning Objectives for [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os) Sections 1.7-1.8 {-}
 
   1. Use frequency tables and bar plots to describe the distribution of one categorical variable.
+  
+```{r}
+xtabs(~number, data = email)
+ggplot(data = email, aes(x = number)) +
+  geom_bar(fill = "pink") + 
+  theme_bw()
+```
 
   2. Use contingency tables and segmented bar plots or mosaic plots to assess the relationship between two categorical variables.
+  
+```{r}
+xtabs(~spam + number, data = email)
+ggplot(data = email, aes(x = number, fill = as.factor(spam))) +
+  geom_bar(position = "fill") + 
+  theme_bw() +
+  labs(y = "Fraction") +
+  scale_fill_manual(values = c("purple", "lightblue"), name = "Spam")
+ggplot(data = email, aes(x = number, fill = as.factor(spam))) +
+  geom_bar(position = "stack") + 
+  theme_bw() +
+  labs(y = "Frequency") +
+  scale_fill_manual(values = c("purple", "lightblue"), name = "Spam")
+library(vcd)
+mosaic(~number + as.factor(spam), data = email, shade = TRUE)
+```
 
   3. Use side-by-side box plots for assessing the relationship between a numerical and a categorical variable.
+  
+```{r}
+ggplot(data = email, aes(x = number, y = num_char)) + 
+  geom_boxplot() + 
+  theme_bw()
+```
 
 ```{block2, test4, type='rmdexercise'}
 Test yourself:
