@@ -154,6 +154,10 @@ devtools::install_github('alanarnholt/statsr')
 
     + If the variable is numerical, further classify it as continuous or discrete based on whether or not the variable can take on an infinite number of values or only non-negative whole numbers, respectively.
     + If the variable is categorical, determine if it is ordinal or not based on whether the levels have a natural ordering.
+    
+```{r, echo = FALSE, fig.cap = "Figure 1.7 from OpenIntro"}
+knitr::include_graphics("./Pics/Variables.png", dpi = 75)
+```
 
 2. Define associated variables as variables that show some relationship with one another. Further categorize this relationship as a positive or negative association when possible.
 
@@ -178,6 +182,10 @@ Test yourself: Give one example of each type of variable you have learned.
 
     + If random sampling has been employed in data collection, the results should be generalizable to the target population.
     + If random assignment has been employed in study design, the results suggest causality.
+    
+```{r, echo = FALSE, fig.cap = "Scope Of Inference"}
+knitr::include_graphics("./Pics/ScopeOI.png", dpi = 150)
+```    
 
   6. Identify confounding variables and sources of bias in a given study.
 
