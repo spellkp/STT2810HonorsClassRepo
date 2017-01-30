@@ -58,4 +58,8 @@ To cite [@shafer_reverse_2016] or [@holzl_inductive_2016] use `[@shafer_reverse_
 
 `r knitr::include_graphics("./images/citing.gif")`
 
+## You Tube Videos
+
+[Here are some YouTube videos](https://www.youtube.com/channel/UC09IfxHD3AMJeRA226KvqKA) I made for using Zotero and R Markdown.
+
 ## References
