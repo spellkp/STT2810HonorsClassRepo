@@ -10,6 +10,16 @@ bibliography: reversemath.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Installing Zotero
+
+**Note:** Zotero is installed on all ASU lab machines
+
+1. Use Zotero with Firefox
+2. Point your browser to [https://www.zotero.org/](https://www.zotero.org/)
+3. Click the Download button and follow the directions
+
+`r knitr::include_graphics("./images/downloadandinstall.gif")`
+
 ## Sign Up For Zotero Online
 
 1. Point your browser to [https://www.zotero.org/](https://www.zotero.org/)
@@ -19,12 +29,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r knitr::include_graphics("./images/zoteroregistration.gif")`
 
-## Using Zotero
 
-1. Zotero is installed on Lab machines
-2. Use Firefox for best results
-
-## Synchronize Local Machine with Zotero Server
+## Synchronize Local Machine with the Zotero Server
 
 **If you synchronize a lab machine with the Zotero server, be sure to remove your username and password before leaving the machine!**
 
